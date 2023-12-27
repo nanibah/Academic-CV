@@ -1,50 +1,50 @@
 ---
 # Display name
-title: 吳健雄
+title: Nibarkavi Naresh Babu Amutha
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Nibarkavi
+last_name: Naresh Babu Amutha
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Graduate Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Michigan Field Robotics Group
+    url: https://fieldrobotics.engin.umich.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include aiding mobile robots with gaining autonomy especially in challenging environments via perception, sensor fusion and algorithm development. 
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Perception for Robots
+  - Algorithm Development
+  - Underwater Autonomous Vehicles
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: MS in Robotics
+      institution: University of Michigan, Ann Arbor
+      year: 2024
+    - course: BE in Robotics & Automation
+      institution: PSG College of Technology, Coimbatore
+      year: 2021
+    - course: Diploma in Mechatronics
+      institution: PSG Polytechnic College, Coimbatore
+      year: 2018
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,17 +53,17 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        # percent: 80
         icon: python
         icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 100
+        # percent: 100
         icon: chart-line
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        # percent: 40
         icon: database
         icon_pack: fas
   - name: Hobbies
@@ -72,17 +72,17 @@ skills:
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        # percent: 60
         icon: person-hiking
         icon_pack: fas
       - name: Cats
         description: ''
-        percent: 100
+        # percent: 100
         icon: cat
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        # percent: 80
         icon: camera-retro
         icon_pack: fas
 
