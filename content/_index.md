@@ -65,7 +65,7 @@ sections:
         - title: Graduate Research Student
           company: University of Michigan Field Robotics Group
           company_url: https://fieldrobotics.engin.umich.edu/
-          company_logo: org-gc
+          # company_logo: org-gc
           location: Ann Arbor
           date_start: '2023-01-01'
           date_end: ''
@@ -94,7 +94,7 @@ sections:
           date_start: '2020-12-01'
           date_end: '2021-06-30'
           description: |2-
-              Projects:Real time sub-assembly identification through IMU data fusion with vision sensor for an inspection system
+              Projects:
               * Real time sub-assembly identification through IMU data fusion with vision sensor for an inspection system of nuclear reactor core
               * Manipulability analysis of industrial manipulators
     design:

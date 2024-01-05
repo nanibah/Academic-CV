@@ -31,6 +31,10 @@ bio: My research interests include aiding mobile robots with gaining autonomy es
 interests:
   - Perception for Robots
   - Algorithm Development
+  - Autonomous Mobile Robots
+  - Mobile Guided Vehicles
+  - Sensor Fusion
+  - State Estimation
   - Underwater Autonomous Vehicles
 
 # Education to show in About widget
@@ -52,23 +56,23 @@ Technical skills:
   # - name: Technical
   items:
     - name: Python
-      description: ''
+      # description: ''
       icon: /logos/py.png
       # icon_pack: fab
     - name: C++
-      description: ''
+      # description: ''
       icon: /logos/Cpp.png
       # icon_pack: fab
     - name: C
-      description: ''
+      # description: ''
       icon: /logos/c.png
       # icon_pack: fas
     - name: PyTorch
-      description: ''
+      # description: ''
       icon: /logos/pt.png
       # icon_pack: fas
     - name: ROS
-      description: ''
+      # description: ''
       icon: /logos/ros.png
       # icon_pack: fas
     # - name: Linux
@@ -76,7 +80,7 @@ Technical skills:
     #   icon: linux
       # icon_pack: fab
     - name: Git
-      description: ''
+      # description: ''
       icon: /logos/git.png
       # icon_pack: fab
 
