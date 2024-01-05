@@ -53,32 +53,32 @@ Technical skills:
   items:
     - name: Python
       description: ''
-      icon: python
-      icon_pack: fab
+      icon: /logos/py.png
+      # icon_pack: fab
     - name: C++
       description: ''
-      icon: cpp
-      icon_pack: fab
+      icon: /logos/Cpp.png
+      # icon_pack: fab
     - name: C
       description: ''
-      icon: code
-      icon_pack: fas
+      icon: /logos/c.png
+      # icon_pack: fas
     - name: PyTorch
       description: ''
-      icon: fire-alt
-      icon_pack: fas
+      icon: /logos/pt.png
+      # icon_pack: fas
     - name: ROS
       description: ''
-      icon: robot
-      icon_pack: fas
-    - name: Linux
-      description: ''
-      icon: linux
-      icon_pack: fab
+      icon: /logos/ros.png
+      # icon_pack: fas
+    # - name: Linux
+    #   description: ''
+    #   icon: linux
+      # icon_pack: fab
     - name: Git
       description: ''
-      icon: git
-      icon_pack: fab
+      icon: /logos/git.png
+      # icon_pack: fab
 
   # - name: Hobbies
   #   color: '#eeac02'
