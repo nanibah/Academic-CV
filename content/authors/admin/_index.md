@@ -55,33 +55,23 @@ Technical skills:
   # - name: Technical
   items:
     - name: Python
-      # description: ''
-      icon: /icons/frog-logo.png
-      # icon_pack: fab
+      icon: /logos/py.png
+      id: python-icon
     - name: C++
-      # description: ''
       icon: /logos/Cpp.png
-      # icon_pack: fab
+      id: cpp-icon
     - name: C
-      # description: ''
       icon: /logos/c.png
-      # icon_pack: fas
+      id: c-icon
     - name: PyTorch
-      # description: ''
       icon: /logos/pt.png
-      # icon_pack: fas
+      id: pytorch-icon
     - name: ROS
-      # description: ''
       icon: /logos/ros.png
-      # icon_pack: fas
-    # - name: Linux
-    #   description: ''
-    #   icon: linux
-      # icon_pack: fab
+      id: ros-icon
     - name: Git
-      # description: ''
       icon: /logos/git.png
-      # icon_pack: fab
+      id: git-icon
 
   # - name: Hobbies
   #   color: '#eeac02'
