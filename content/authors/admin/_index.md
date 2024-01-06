@@ -55,22 +55,22 @@ Technical skills:
   # - name: Technical
   items:
     - name: Python
-      icon: /logos/py.png
+      icon: /workspaces/Academic-CV/content/logos/py.png
       id: python-icon
     - name: C++
-      icon: /logos/Cpp.png
+      icon: /workspaces/Academic-CV/content/logos/Cpp.png
       id: cpp-icon
     - name: C
-      icon: /logos/c.png
+      icon: /workspaces/Academic-CV/content/logos/c.png
       id: c-icon
     - name: PyTorch
-      icon: /logos/pt.png
+      icon: /workspaces/Academic-CV/content/logos/pt.png
       id: pytorch-icon
     - name: ROS
-      icon: /logos/ros.png
+      icon: /workspaces/Academic-CV/content/logos/ros.png
       id: ros-icon
     - name: Git
-      icon: /logos/git.png
+      icon: /workspaces/Academic-CV/content/logos/git.png
       id: git-icon
 
   # - name: Hobbies
