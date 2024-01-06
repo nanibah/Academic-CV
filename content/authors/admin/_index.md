@@ -32,7 +32,6 @@ interests:
   - Perception for Robots
   - Algorithm Development
   - Autonomous Mobile Robots
-  - Mobile Guided Vehicles
   - Sensor Fusion
   - State Estimation
   - Underwater Autonomous Vehicles
@@ -57,7 +56,7 @@ Technical skills:
   items:
     - name: Python
       # description: ''
-      icon: /logos/py.png
+      icon: /icons/frog-logo.png
       # icon_pack: fab
     - name: C++
       # description: ''

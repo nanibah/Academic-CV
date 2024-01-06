@@ -71,7 +71,7 @@ sections:
           date_end: ''
           description: |2-
               Projects:
-              * Shipwrech Detection and Analysis
+              * Shipwreck Detection and Analysis
               * Underwater 3D reconstruction using imaging sonar and monocular camera
 
         - title: Research Engineer

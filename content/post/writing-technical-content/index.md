@@ -388,3 +388,10 @@ renders as
 {{< icon name="r-project" pack="fab" >}} R
 
 ### Did you find this page helpful? Consider sharing it 🙌
+[Title](../../authors/admin/logos)
+
+
+<!-- custom icons for logos and skills -->
+<img src="/workspaces/Academic-CV/content/logos/c.png" alt="c" width="50" height="50">
+<!-- <img src="/logos/icon2.png" alt="Icon 2" width="50" height="50"> -->
+
