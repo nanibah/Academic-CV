@@ -32,8 +32,8 @@ interests:
   - Perception for Robots
   - Algorithm Development
   - Autonomous Mobile Robots
-  - Sensor Fusion
-  - State Estimation
+  - Motion Planning
+  - Robot State Estimation
   - Underwater Autonomous Vehicles
 
 # Education to show in About widget
