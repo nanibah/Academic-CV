@@ -55,10 +55,10 @@ Technical skills:
   # - name: Technical
   items:
     - name: Python
-      icon: /workspaces/Academic-CV/content/logos/py.png
+      icon: {{< figure src="/workspaces/Academic-CV/content/logos/py.png">}}
       id: python-icon
     - name: C++
-      icon: /workspaces/Academic-CV/content/logos/Cpp.png
+      icon: {{< figure src="/workspaces/Academic-CV/content/logos/Cpp.png">}}
       id: cpp-icon
     - name: C
       icon: /workspaces/Academic-CV/content/logos/c.png
