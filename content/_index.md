@@ -65,7 +65,7 @@ sections:
         - title: Graduate Research Student
           company: University of Michigan Field Robotics Group
           company_url: https://fieldrobotics.engin.umich.edu/
-          company_logo: frog-logo
+          company_logo: frog
           location: Ann Arbor
           date_start: '2023-01-01'
           date_end: ''
@@ -77,7 +77,7 @@ sections:
         - title: Research Engineer
           company: Hachidori Robotics Private Limited
           company_url: https://hachidorirobotics.com/index.php
-          company_logo: h
+          company_logo: hachidori
           location: Bengaluru
           date_start: '2021-07-01'
           date_end: '2022-06-30'
@@ -89,7 +89,7 @@ sections:
         - title: Intern
           company: Indira Gandhi Centre for Atomic research
           company_url: https://www.igcar.gov.in/index.html
-          company_logo: i
+          company_logo: igcar
           location: Kalpakkam
           date_start: '2020-12-01'
           date_end: '2021-06-30'
