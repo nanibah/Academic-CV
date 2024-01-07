@@ -52,48 +52,48 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
 Technical skills:
-  - name: Technical
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Python 
-        icon: frog-logo
-        # id: python-icon
-      - name: C++
-        icon: /logos/Cpp.png
-        # id: cpp-icon
-      - name: C
-        icon: /logos/c.png
-        # id: c-icon
-      - name: PyTorch
-        icon: /logos/pt.png
-        # id: pytorch-icon
-      - name: ROS
-        icon: /logos/ros.png
-        # id: ros-icon
-      - name: Git
-        icon: /logos/git.png
-      # id: git-icon
-
-  # - name: Hobbies
+  # - name: Technical
   #   color: '#eeac02'
   #   color_border: '#f0bf23'
   #   items:
-  #     - name: Hiking
-  #       description: ''
-  #       # percent: 60
-  #       icon: person-hiking
-  #       icon_pack: fas
-  #     - name: Cats
-  #       description: ''
-  #       # percent: 100
-  #       icon: cat
-  #       icon_pack: fas
-  #     - name: Photography
-  #       description: ''
-  #       # percent: 80
-  #       icon: camera-retro
-  #       icon_pack: fas
+  #     - name: Python 
+  #       icon: frog-logo
+  #       # id: python-icon
+  #     - name: C++
+  #       icon: /logos/Cpp.png
+  #       # id: cpp-icon
+  #     - name: C
+  #       icon: /logos/c.png
+  #       # id: c-icon
+  #     - name: PyTorch
+  #       icon: /logos/pt.png
+  #       # id: pytorch-icon
+  #     - name: ROS
+  #       icon: /logos/ros.png
+  #       # id: ros-icon
+  #     - name: Git
+  #       icon: /logos/git.png
+  #     # id: git-icon
+
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        # percent: 60
+        icon: person-hiking
+        icon_pack: fas
+      - name: Cats
+        description: ''
+        # percent: 100
+        icon: cat
+        icon_pack: fas
+      - name: Photography
+        description: ''
+        # percent: 80
+        icon: camera-retro
+        icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
