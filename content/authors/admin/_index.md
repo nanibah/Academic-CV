@@ -56,17 +56,17 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        # percent: 80
         icon: python
         icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 100
+        # percent: 100
         icon: chart-line
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        # percent: 40
         icon: database
         icon_pack: fas
   - name: Hobbies
@@ -75,17 +75,17 @@ skills:
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        # percent: 60
         icon: person-hiking
         icon_pack: fas
       - name: Cats
         description: ''
-        percent: 100
+        # percent: 100
         icon: cat
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        # percent: 80
         icon: camera-retro
         icon_pack: fas
 
