@@ -51,30 +51,24 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
-Technical skills:
-  # - name: Technical
-  #   color: '#eeac02'
-  #   color_border: '#f0bf23'
-  #   items:
-  #     - name: Python 
-  #       icon: frog-logo
-  #       # id: python-icon
-  #     - name: C++
-  #       icon: /logos/Cpp.png
-  #       # id: cpp-icon
-  #     - name: C
-  #       icon: /logos/c.png
-  #       # id: c-icon
-  #     - name: PyTorch
-  #       icon: /logos/pt.png
-  #       # id: pytorch-icon
-  #     - name: ROS
-  #       icon: /logos/ros.png
-  #       # id: ros-icon
-  #     - name: Git
-  #       icon: /logos/git.png
-  #     # id: git-icon
-
+skills:
+  - name: Technical
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: fab
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-line
+        icon_pack: fas
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: database
+        icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
