@@ -77,7 +77,7 @@ sections:
         - title: Research Engineer
           company: Hachidori Robotics Private Limited
           company_url: https://hachidorirobotics.com/index.php
-          company_logo: hachidori
+          company_logo: h
           location: Bengaluru
           date_start: '2021-07-01'
           date_end: '2022-06-30'
