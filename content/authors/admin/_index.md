@@ -56,7 +56,7 @@ Technical skills:
   items:
     - name: Python 
       icon: /logos/py.png
-      id: python-icon
+      # id: python-icon
     - name: C++
       icon: /logos/Cpp.png
       # id: cpp-icon
@@ -65,13 +65,13 @@ Technical skills:
       # id: c-icon
     - name: PyTorch
       icon: /logos/pt.png
-      id: pytorch-icon
+      # id: pytorch-icon
     - name: ROS
       icon: /logos/ros.png
-      id: ros-icon
+      # id: ros-icon
     - name: Git
       icon: /logos/git.png
-      id: git-icon
+      # id: git-icon
 
   # - name: Hobbies
   #   color: '#eeac02'
