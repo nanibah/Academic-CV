@@ -53,6 +53,8 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
 Technical skills:
   - name: Technical
+    color: '#eeac02'
+    color_border: '#f0bf23'
     items:
       - name: Python 
         icon: frog-logo
