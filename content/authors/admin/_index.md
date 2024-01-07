@@ -55,22 +55,22 @@ Technical skills:
   # - name: Technical
   items:
     - name: Python 
-      icon: {{< figure src="[Title](../../logos)/py.png">}}
+      icon: {{< figure src="/logos/py.png">}}
       id: python-icon
     - name: C++
-      icon: [Title](../../logos)/Cpp.png
+      icon: /logos/Cpp.png
       # id: cpp-icon
     - name: C
-      icon: [Title](../../logos)/c.png
+      icon: /logos/c.png
       # id: c-icon
     - name: PyTorch
-      icon: [Title](../../logos)/pt.png
+      icon: /logos/pt.png
       id: pytorch-icon
     - name: ROS
-      icon: [Title](../../logos)/ros.png
+      icon: /logos/ros.png
       id: ros-icon
     - name: Git
-      icon: [Title](../../logos)/git.png
+      icon: /logos/git.png
       id: git-icon
 
   # - name: Hobbies
