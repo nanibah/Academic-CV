@@ -54,23 +54,23 @@ education:
 Technical skills:
   # - name: Technical
   items:
-    - name: Python
-      icon: {{< figure src="/workspaces/Academic-CV/content/logos/py.png">}}
+    - name: Python 
+      icon: {{< figure src="[Title](../../logos)/py.png">}}
       id: python-icon
     - name: C++
-      icon: {{< figure src="/workspaces/Academic-CV/content/logos/Cpp.png">}}
+      icon: [Title](../../logos)/Cpp.png
       id: cpp-icon
     - name: C
-      icon: /workspaces/Academic-CV/content/logos/c.png
+      icon: [Title](../../logos)/c.png
       id: c-icon
     - name: PyTorch
-      icon: /workspaces/Academic-CV/content/logos/pt.png
+      icon: [Title](../../logos)/pt.png
       id: pytorch-icon
     - name: ROS
-      icon: /workspaces/Academic-CV/content/logos/ros.png
+      icon: [Title](../../logos)/ros.png
       id: ros-icon
     - name: Git
-      icon: /workspaces/Academic-CV/content/logos/git.png
+      icon: [Title](../../logos)/git.png
       id: git-icon
 
   # - name: Hobbies
