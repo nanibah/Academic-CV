@@ -65,7 +65,7 @@ sections:
         - title: Graduate Research Student
           company: University of Michigan Field Robotics Group
           company_url: https://fieldrobotics.engin.umich.edu/
-          company_logo: frog-logo.svg
+          company_logo: frog-logo
           location: Ann Arbor
           date_start: '2023-01-01'
           date_end: ''
