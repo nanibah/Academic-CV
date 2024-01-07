@@ -393,10 +393,9 @@ renders as
 
 <!-- custom icons for logos and skills -->
 <!-- <img src="/workspaces/Academic-CV/content/logos/c.png" alt="c" width="50" height="50"> -->
-- Python: [{{< figure src="/logos/py.png" id="python-icon" >}}](#figure-python-icon)
+<!-- - Python: [{{< figure src="/logos/py.png" id="python-icon" >}}](#figure-python-icon)
 - C++: [{{< figure src="/logos/Cpp.png" id="cpp-icon" >}}](#figure-cpp-icon)
 - C: [{{< figure src="/logos/c.png" id="c-icon" >}}](#figure-c-icon)
 - PyTorch: [{{< figure src="/logos/pt.png" id="pytorch-icon" >}}](#figure-pytorch-icon)
 - ROS: [{{< figure src="/logos/ros.png" id="ros-icon" >}}](#figure-ros-icon)
-- Git: [{{< figure src="/logos/git.png" id="git-icon" >}}](#figure-git-icon)
-
+- Git: [{{< figure src="/logos/git.png" id="git-icon" >}}](#figure-git-icon) -->
