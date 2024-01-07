@@ -89,7 +89,7 @@ sections:
         - title: Intern
           company: Indira Gandhi Centre for Atomic research
           company_url: https://www.igcar.gov.in/index.html
-          company_logo: igcar
+          company_logo: i
           location: Kalpakkam
           date_start: '2020-12-01'
           date_end: '2021-06-30'
