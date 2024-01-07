@@ -55,7 +55,7 @@ Technical skills:
   # - name: Technical
   items:
     - name: Python 
-      icon: {{< figure src="/logos/py.png">}}
+      icon: /logos/py.png
       id: python-icon
     - name: C++
       icon: /logos/Cpp.png
