@@ -55,7 +55,7 @@ Technical skills:
   # - name: Technical
   items:
     - name: Python 
-      icon: /logos/py.png
+      icon: frog-logo
       # id: python-icon
     - name: C++
       icon: /logos/Cpp.png
