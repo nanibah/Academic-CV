@@ -81,17 +81,17 @@ Technical skills:
     items:
       - name: Hiking
         description: ''
-        # percent: 60
+        percent: 60
         icon: person-hiking
         icon_pack: fas
       - name: Cats
         description: ''
-        # percent: 100
+        percent: 100
         icon: cat
         icon_pack: fas
       - name: Photography
         description: ''
-        # percent: 80
+        percent: 80
         icon: camera-retro
         icon_pack: fas
 
