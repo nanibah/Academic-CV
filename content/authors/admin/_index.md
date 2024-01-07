@@ -59,10 +59,10 @@ Technical skills:
       id: python-icon
     - name: C++
       icon: [Title](../../logos)/Cpp.png
-      id: cpp-icon
+      # id: cpp-icon
     - name: C
       icon: [Title](../../logos)/c.png
-      id: c-icon
+      # id: c-icon
     - name: PyTorch
       icon: [Title](../../logos)/pt.png
       id: pytorch-icon
