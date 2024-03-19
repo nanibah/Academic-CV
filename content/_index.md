@@ -99,8 +99,6 @@ sections:
               * Manipulability analysis of industrial manipulators
     design:
       columns: '2'
----
-
 
 - block: accomplishments
    content:
