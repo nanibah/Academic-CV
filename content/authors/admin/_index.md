@@ -104,7 +104,7 @@ social:
 highlight_name: true
 ---
 
-<!-- My research interests include aiding mobile robots with gaining autonomy especially in challenging environments via perception, sensor fusion and algorithm development. 
-{style="text-align: justify;"} -->
+I am currently pursuing my Master's degree in Robotics at the University of Michigan, where I collaborate with Professor Katherine A. Skinner in the Field Robotics Group. My research revolves around enhancing perception capabilities for Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs). I am particularly passionate about developing software utilities and algorithms that empower autonomous robots to navigate and operate effectively in complex environments through advanced perception techniques and sensor fusion.   
+{style="text-align: justify;"}
 
 <!-- /workspaces/Academic-CV/content/authors/admin/_index.md -->
