@@ -29,12 +29,11 @@ bio: I am currently pursuing my Master's degree in Robotics at the University of
 
 # Interests to show in About widget
 interests:
-  - Perception for Robots
   - Algorithm Development
-  - Autonomous Mobile Robots
+  - Computer Vision, ML & AI
+  - DL for Robot Perception
+  - Mobile Robotics
   - Motion Planning
-  - Machine Learning and Computer Vision
-  - Underwater Autonomous Vehicles
 
 # Education to show in About widget
 education:
