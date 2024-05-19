@@ -99,30 +99,30 @@ skills:
         icon: git
         icon_pack: git
 
-  # - name: Libraries & Frameworks
-  #   color: '#ceac02'
-  #   color_border: '#f0bf23'
-  #   items:
-  #     - name: PyTorch
-  #       description: ''
-  #       percent: 70
-  #       icon: pytorch
-  #       icon_pack: devicon
-  #     - name: OpenCV
-  #       description: ''
-  #       percent: 70
-  #       icon: opencv
-  #       icon_pack: devicon
-  #     - name: NumPy 
-  #       description: ''
-  #       percent: 90
-  #       icon: numpy
-  #       icon_pack: devicon
-  #     - name: TensorFlow
-  #       description: ''
-  #       percent: 50
-  #       icon: tensorflow
-  #       icon_pack: devicon
+  - name: Libraries & Frameworks
+    color: '#ceac02'
+    color_border: '#f0bf23'
+    items:
+      - name: PyTorch
+        description: ''
+        percent: 70
+        icon: pytorch
+        icon_pack: devicon
+      - name: OpenCV
+        description: ''
+        percent: 70
+        icon: opencv
+        icon_pack: devicon
+      - name: NumPy 
+        description: ''
+        percent: 90
+        icon: numpy
+        icon_pack: devicon
+      - name: TensorFlow
+        description: ''
+        percent: 50
+        icon: tensorflow
+        icon_pack: devicon
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
