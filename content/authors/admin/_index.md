@@ -57,32 +57,32 @@ Skills:
         description: ''
         percent: 80
         icon: python
-        icon_pack: devicon
+        icon_pack: fas
       - name: C++
         description: ''
         percent: 70
         icon: cplusplus
-        icon_pack: devicon
+        icon_pack: fas
       - name: Embedded C
         description: ''
         percent: 65
         icon: C
-        icon_pack: devicon
+        icon_pack: fas
       - name: MATLAB
         description: ''
         percent: 60
         icon: C
-        icon_pack: devicon
+        icon_pack: fas
       - name: PyTorch
         description: ''
         percent: 70
         icon: pytorch
-        icon_pack: devicon
+        icon_pack: fas
       - name: TensorFlow
         description: ''
         percent: 50
         icon: tensorflow
-        icon_pack: devicon
+        icon_pack: fas
 
   - name: Development Tools & Platforms
     color: '#eeac02'
@@ -92,32 +92,32 @@ Skills:
         description: ''
         percent: 90
         icon: linux
-        icon_pack: devicon
+        icon_pack: fas
       - name: ROS
         description: ''
         percent: 90
         icon: ros
-        icon_pack: devicon
+        icon_pack: fas
       - name: Docker
         description: ''
         percent: 70
         icon: docker
-        icon_pack: devicon
+        icon_pack: fas
       - name: Git
         description: ''
         percent: 75
         icon: git
-        icon_pack: git
+        icon_pack: fas
       - name: OpenCV
         description: ''
         percent: 70
         icon: opencv
-        icon_pack: devicon
+        icon_pack: fas
       - name: NumPy 
         description: ''
         percent: 90
         icon: numpy
-        icon_pack: devicon
+        icon_pack: fas
 
   # - name: Libraries & Frameworks
   #   color: '#ceac02'
