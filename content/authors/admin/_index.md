@@ -48,7 +48,7 @@ education:
       institution: PSG Polytechnic College, Coimbatore
       year: 2018
 
-Skills
+# Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
 skills:
   - name: Programming Languages
