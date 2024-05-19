@@ -50,7 +50,7 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
-skills:
+Skills:
   - name: Programming Languages
     items:
       - name: Python
@@ -72,6 +72,16 @@ skills:
         description: ''
         percent: 60
         icon: C
+        icon_pack: devicon
+      - name: PyTorch
+        description: ''
+        percent: 70
+        icon: pytorch
+        icon_pack: devicon
+      - name: TensorFlow
+        description: ''
+        percent: 50
+        icon: tensorflow
         icon_pack: devicon
 
   - name: Development Tools & Platforms
@@ -98,16 +108,6 @@ skills:
         percent: 75
         icon: git
         icon_pack: git
-
-  - name: Libraries & Frameworks
-    color: '#ceac02'
-    color_border: '#f0bf23'
-    items:
-      - name: PyTorch
-        description: ''
-        percent: 70
-        icon: pytorch
-        icon_pack: devicon
       - name: OpenCV
         description: ''
         percent: 70
@@ -118,11 +118,12 @@ skills:
         percent: 90
         icon: numpy
         icon_pack: devicon
-      - name: TensorFlow
-        description: ''
-        percent: 50
-        icon: tensorflow
-        icon_pack: devicon
+
+  # - name: Libraries & Frameworks
+  #   color: '#ceac02'
+  #   color_border: '#f0bf23'
+  #   items:
+            
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -150,7 +151,7 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
+  - icon: cv 
     icon_pack: ai
     link: static/uploads/NibarkaviNaresh.pdf
 
