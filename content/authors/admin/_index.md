@@ -72,8 +72,8 @@ skills:
         description: ''
         percent: 60
         icon: C
-        icon_pack:devicon
-      
+        icon_pack: devicon
+
   - name: Development Tools & Platforms
     color: '#eeac02'
     color_border: '#f0bf23'
