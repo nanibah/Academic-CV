@@ -51,79 +51,114 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
 Skills:
-  - name: Programming Languages
+  - name: Technical
     items:
       - name: Python
         description: ''
         percent: 80
         icon: python
-        icon_pack: fas
-      - name: C++
+        icon_pack: fab
+      - name: Data Science
         description: ''
-        percent: 70
-        icon: cplusplus
+        percent: 100
+        icon: chart-line
         icon_pack: fas
-      - name: Embedded C
+      - name: SQL
         description: ''
-        percent: 65
-        icon: C
+        percent: 40
+        icon: database
         icon_pack: fas
-      - name: MATLAB
-        description: ''
-        percent: 60
-        icon: C
-        icon_pack: fas
-      - name: PyTorch
-        description: ''
-        percent: 70
-        icon: pytorch
-        icon_pack: fas
-      - name: TensorFlow
-        description: ''
-        percent: 50
-        icon: tensorflow
-        icon_pack: fas
-
-  - name: Development Tools & Platforms
+  - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Linux
+      - name: Hiking
         description: ''
-        percent: 90
-        icon: linux
+        percent: 60
+        icon: person-hiking
         icon_pack: fas
-      - name: ROS
+      - name: Cats
         description: ''
-        percent: 90
-        icon: ros
+        percent: 100
+        icon: cat
         icon_pack: fas
-      - name: Docker
+      - name: Photography
         description: ''
-        percent: 70
-        icon: docker
+        percent: 80
+        icon: camera-retro
         icon_pack: fas
-      - name: Git
-        description: ''
-        percent: 75
-        icon: git
-        icon_pack: fas
-      - name: OpenCV
-        description: ''
-        percent: 70
-        icon: opencv
-        icon_pack: fas
-      - name: NumPy 
-        description: ''
-        percent: 90
-        icon: numpy
-        icon_pack: fas
+  # - name: Programming Languages
+  #   items:
+  #     - name: Python
+  #       description: ''
+  #       percent: 80
+  #       icon: python
+  #       icon_pack: devicon
+  #     - name: C++
+  #       description: ''
+  #       percent: 70
+  #       icon: cplusplus
+  #       icon_pack: devicon
+  #     - name: Embedded C
+  #       description: ''
+  #       percent: 65
+  #       icon: C
+  #       icon_pack: devicon
+  #     - name: MATLAB
+  #       description: ''
+  #       percent: 60
+  #       icon: C
+  #       icon_pack: devicon
+
+  # - name: Development Tools & Platforms
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Linux
+  #       description: ''
+  #       percent: 90
+  #       icon: linux
+  #       icon_pack: devicon
+  #     - name: ROS
+  #       description: ''
+  #       percent: 90
+  #       icon: ros
+  #       icon_pack: devicon
+  #     - name: Docker
+  #       description: ''
+  #       percent: 70
+  #       icon: docker
+  #       icon_pack: devicon
+  #     - name: Git
+  #       description: ''
+  #       percent: 75
+  #       icon: git
+  #       icon_pack: git
 
   # - name: Libraries & Frameworks
   #   color: '#ceac02'
   #   color_border: '#f0bf23'
   #   items:
-            
+  #     - name: PyTorch
+  #       description: ''
+  #       percent: 70
+  #       icon: pytorch
+  #       icon_pack: devicon
+  #     - name: OpenCV
+  #       description: ''
+  #       percent: 70
+  #       icon: opencv
+  #       icon_pack: devicon
+  #     - name: NumPy 
+  #       description: ''
+  #       percent: 90
+  #       icon: numpy
+  #       icon_pack: devicon
+  #     - name: TensorFlow
+  #       description: ''
+  #       percent: 50
+  #       icon: tensorflow
+  #       icon_pack: devicon
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
