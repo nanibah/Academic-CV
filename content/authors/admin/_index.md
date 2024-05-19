@@ -20,9 +20,9 @@ superuser: true
 role: Roboticist
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: University of Michigan Field Robotics Group
-    url: https://fieldrobotics.engin.umich.edu/
+# organizations:
+#   - name: University of Michigan Field Robotics Group
+#     url: https://fieldrobotics.engin.umich.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Roboticist experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors with expertise spanning computer vision and machine learning for robot perception, motion planning and  trajectory optimization, mapping, localization and navigation.  
@@ -158,7 +158,7 @@ social:
 highlight_name: true
 ---
 
-<!-- I am currently pursuing my Master's degree in Robotics at the University of Michigan, where I collaborate with Professor Katherine A. Skinner in the Field Robotics Group. My research revolves around enhancing perception capabilities for Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs). I am particularly passionate about developing software utilities and algorithms that empower autonomous robots to navigate and operate effectively in complex environments through advanced perception techniques and sensor fusion.   
-{style="text-align: justify;"} -->
+Roboticist experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors with expertise spanning computer vision and machine learning for robot perception, motion planning and  trajectory optimization, mapping, localization and navigation.   
+{style="text-align: justify;"}
 
 <!-- /workspaces/Academic-CV/content/authors/admin/_index.md -->
