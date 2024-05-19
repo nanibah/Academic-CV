@@ -17,7 +17,7 @@ last_name: Naresh Babu Amutha
 superuser: true
 
 # Role/position/tagline
-role: Graduate Researche Student
+role: Roboticist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,15 +25,15 @@ organizations:
     url: https://fieldrobotics.engin.umich.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am currently pursuing my Master's degree in Robotics at the University of Michigan, where I collaborate with Professor Katherine A. Skinner in the Field Robotics Group. My research revolves around enhancing perception capabilities for Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs). I am particularly passionate about developing software utilities and algorithms that empower autonomous robots to navigate and operate effectively in complex environments through advanced perception techniques and sensor fusion. 
+bio: Roboticist experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors with expertise spanning computer vision and machine learning for robot perception, motion planning and  trajectory optimization, mapping, localization and navigation.  
 
 # Interests to show in About widget
 interests:
   - Algorithm Development
-  - Computer Vision, ML & AI
-  - DL for Robot Perception
+  - Computer Vision 
+  - DL, ML & AI
   - Mobile Robotics
-  - Motion Planning
+  - Perception & Planning
 
 # Education to show in About widget
 education:
@@ -48,26 +48,81 @@ education:
       institution: PSG Polytechnic College, Coimbatore
       year: 2018
 
-# Skills
+Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
-# skills:
-#   - name: Technical
-#     items:
-#       - name: Python
-#         description: ''
-#         # percent: 80
-#         icon: frog
-#         icon_pack: custom
-#       - name: Data Science
-#         description: ''
-#         # percent: 100
-#         icon: chart-line
-#         icon_pack: fas
-#       - name: SQL
-#         description: ''
-#         # percent: 40
-#         icon: database
-#         icon_pack: fas
+skills:
+  - name: Programming Languages
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: devicon
+      - name: C++
+        description: ''
+        percent: 70
+        icon: cplusplus
+        icon_pack: devicon
+      - name: Embedded C
+        description: ''
+        percent: 65
+        icon: C
+        icon_pack: devicon
+      - name: MATLAB
+        description: ''
+        percent: 60
+        icon: C
+        icon_pack:devicon
+      
+  - name: Development Tools & Platforms
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Linux
+        description: ''
+        percent: 90
+        icon: linux
+        icon_pack: devicon
+      - name: ROS
+        description: ''
+        percent: 90
+        icon: ros
+        icon_pack: devicon
+      - name: Docker
+        description: ''
+        percent: 70
+        icon: docker
+        icon_pack: devicon
+      - name: Git
+        description: ''
+        percent: 75
+        icon: git
+        icon_pack: git
+
+  - name: Libraries & Frameworks
+    color: '#ceac02'
+    color_border: '#f0bf23'
+    items:
+      - name: PyTorch
+        description: ''
+        percent: 70
+        icon: pytorch
+        icon_pack: devicon
+      - name: OpenCV
+        description: ''
+        percent: 70
+        icon: opencv
+        icon_pack: devicon
+      - name: NumPy 
+        description: ''
+        percent: 90
+        icon: numpy
+        icon_pack: devicon
+      - name: TensorFlow
+        description: ''
+        percent: 50
+        icon: tensorflow
+        icon_pack: devicon
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -103,7 +158,7 @@ social:
 highlight_name: true
 ---
 
-I am currently pursuing my Master's degree in Robotics at the University of Michigan, where I collaborate with Professor Katherine A. Skinner in the Field Robotics Group. My research revolves around enhancing perception capabilities for Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs). I am particularly passionate about developing software utilities and algorithms that empower autonomous robots to navigate and operate effectively in complex environments through advanced perception techniques and sensor fusion.   
-{style="text-align: justify;"}
+<!-- I am currently pursuing my Master's degree in Robotics at the University of Michigan, where I collaborate with Professor Katherine A. Skinner in the Field Robotics Group. My research revolves around enhancing perception capabilities for Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs). I am particularly passionate about developing software utilities and algorithms that empower autonomous robots to navigate and operate effectively in complex environments through advanced perception techniques and sensor fusion.   
+{style="text-align: justify;"} -->
 
 <!-- /workspaces/Academic-CV/content/authors/admin/_index.md -->
