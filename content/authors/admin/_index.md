@@ -85,8 +85,8 @@ Skills:
         icon_pack: devicon
 
   - name: Development Tools & Platforms
-    # color: '#eeac02'
-    # color_border: '#f0bf23'
+    color: '#eeac02'
+    color_border: '#f0bf23'
     items:
       - name: Linux
         description: ''
