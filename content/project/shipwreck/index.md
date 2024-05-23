@@ -8,9 +8,9 @@ date: 'May 2023'
 # # Optional external URL for project (replaces project detail page).
 # external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'
 
-# image:
-#   caption: Shipwreck Localization
-#   focal_point: Smart
+image:
+  caption: Process Overview
+  focal_point: Smart
 
 # links:
 #   - icon: twitter
@@ -37,6 +37,6 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 - deriving GPS coordinates of the shipwrecks with 30m resolution and 10m accuracy from the output of STARS
 - formulating a confidence score-based metric to rank the shipwreck sites
 
-## Results
-![screen render text](shipwreckResults.png "Bounding boxes")
-![screen render text](gps.png "Shipwreck Localization")
+<!-- ## Results
+![screen render text](shipwreck.png "Bounding boxes")
+![screen render text](gps.png "Shipwreck Localization") -->

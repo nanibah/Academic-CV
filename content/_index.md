@@ -71,8 +71,8 @@ sections:
           date_end: ''
           description: |2-
               Projects:
-              * Shipwreck Detection and Analysis
-              * Underwater 3D reconstruction using imaging sonar and monocular camera
+              * Shipwreck Detection, Localization and Ranking using Side-Scan-Sonar
+              * Underwater 3D Reconstruction using Imaging Sonar and Monocular Camera
 
         - title: Research Engineer
           company: Hachidori Robotics Private Limited
@@ -82,9 +82,7 @@ sections:
           date_start: '2021-07-01'
           date_end: '2022-06-30'
           description: |2-
-              Projects:
-              * EKF implementation fusing wheel encoder and IMU for Autonomous Mobile Robot
-              * Algorithm development for controlling Mobile Guided Vehicle via joystick with 360ᵒ maneuverability 
+              Software developement for Autonomous Mobile Robots (AMRs) and Mobile Guided Vehicles (MGVs) for warehouse automation and windmill balde cutting applications respectively
 
         - title: Intern
           company: Indira Gandhi Centre for Atomic research
@@ -94,9 +92,9 @@ sections:
           date_start: '2020-12-01'
           date_end: '2021-06-30'
           description: |2-
-              Projects:
-              * Real time sub-assembly identification through IMU data fusion with vision sensor for an inspection system of nuclear reactor core
-              * Manipulability analysis of industrial manipulators
+              # Projects:
+              Real time sub-assembly identification through IMU data fusion with vision sensor for an inspection system of nuclear reactor core
+              # * Manipulability analysis of industrial manipulators
     design:
       columns: '2'
   
