@@ -8,9 +8,9 @@ date: 'May 2023'
 # # Optional external URL for project (replaces project detail page).
 # external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'
 
-image:
-  caption: Process Overview
-  focal_point: Smart
+# image:
+#   caption: Process Overview
+#   focal_point: Smart
 
 # links:
 #   - icon: twitter
@@ -40,3 +40,6 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 <!-- ## Results
 ![screen render text](shipwreck.png "Bounding boxes")
 ![screen render text](gps.png "Shipwreck Localization") -->
+![screen render text](featured.png "Process Overview")
+
+
