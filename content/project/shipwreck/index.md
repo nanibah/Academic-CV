@@ -46,5 +46,5 @@ The output of STARS were segmentation masks with detected shipwrecks. For each s
 From this result, it can seen that the detected bounding box of ship matches the groundtruth GPS location. In the following image, a zoomed out view of the map can be seen. 
 ![screen render text](tbnms.png "TBNMS, Lake Huron, MI")
 
-
-
+### Confidence-score ranking metric
+The ranking was based on _confidence-score_ as the objective was to determine the site with artifacts of most archeaological importance. Thus, the mean of pixel intensities of the thresholded segmentation values were computed for every image across a shipwreck site. The images with the highest mean are displayed in the result. A detailed report can be viewed [here](https://drive.google.com/file/d/1Zjk1kY0urg-n3OiZrIOU0J4ylqPFSzRa/view?usp=sharing).
