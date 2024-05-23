@@ -3,7 +3,7 @@ title: Shipwreck Detection, Localization and Ranking
 summary: An example of using the in-built project page.
 tags:
   - Perception
-date: 'May 2023'
+date: '2023-05-01T00:00:00Z'
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'
