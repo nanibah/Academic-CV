@@ -5,8 +5,8 @@ tags:
   - Perception
 date: 'Jan 2023 – May 2023'
 
-# Optional external URL for project (replaces project detail page).
-external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'
+# # Optional external URL for project (replaces project detail page).
+# external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'
 
 image:
   caption: Photo by rawpixel on Unsplash
