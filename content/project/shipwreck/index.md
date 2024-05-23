@@ -3,14 +3,14 @@ title: Shipwreck Detection, Localization and Ranking
 summary: An example of using the in-built project page.
 tags:
   - Perception
-date: 'Jan 2023 – May 2023'
+date: 'May 2023'
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'
 
-image:
-  caption: Shipwreck Localization
-  focal_point: Smart
+# image:
+#   caption: Shipwreck Localization
+#   focal_point: Smart
 
 # links:
 #   - icon: twitter
@@ -38,7 +38,5 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 - formulating a confidence score-based metric to rank the shipwreck sites
 
 ## Results
-<!-- image: -->
-  <!-- caption: Photo by rawpixel on Unsplash -->
-  <!-- focal_point: Smart -->
-
+![screen render text](shipwreckResults.png "Bounding boxes")
+![screen render text](gps.png "Shipwreck Localization")
