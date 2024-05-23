@@ -70,7 +70,6 @@ sections:
           date_start: '2023-01-01'
           date_end: ''
           description: |2-
-              Projects:
               * Shipwreck Detection, Localization and Ranking using Side-Scan-Sonar
               * Underwater 3D Reconstruction using Imaging Sonar and Monocular Camera
 
@@ -92,9 +91,7 @@ sections:
           date_start: '2020-12-01'
           date_end: '2021-06-30'
           description: |2-
-              # Projects:
               Real time sub-assembly identification through IMU data fusion with vision sensor for an inspection system of nuclear reactor core
-              # * Manipulability analysis of industrial manipulators
     design:
       columns: '2'
   

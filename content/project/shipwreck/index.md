@@ -40,6 +40,6 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 <!-- ## Results
 ![screen render text](shipwreck.png "Bounding boxes")
 ![screen render text](gps.png "Shipwreck Localization") -->
-![screen render text](featured.png "Process Overview")
+<!-- ![screen render text](featured.png "Process Overview") -->
 
 
