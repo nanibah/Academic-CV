@@ -70,8 +70,8 @@ sections:
           date_start: '2023-01-01'
           date_end: '2024-04-30'
           description: |2-
-              * Shipwreck Detection, Localization and Ranking using Side-Scan-Sonar
               * Underwater 3D Reconstruction using Imaging Sonar and Monocular Camera
+              * Shipwreck Detection, Localization and Ranking using Side-Scan-Sonar
 
         - title: Research Engineer
           company: Hachidori Robotics Private Limited

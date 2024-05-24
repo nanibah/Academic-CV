@@ -1,6 +1,6 @@
 ---
 title: "Real-time subassembly identification through data fusion of IMU and camera for an nuclear reactor core inspection system"
-summary: 
+summary: Resolving orientation awareness challenges in nuclear reactor core inspections through an innovative numbering scheme and data fusion of IMU and camera.
 tags:
   - Perception
 date: '2021-06-01T00:00:00Z'
@@ -18,11 +18,11 @@ links:
   - name: Slides
     url: https://umich-my.sharepoint.com/:p:/g/personal/nibah_umich_edu/EZCsTqYZsxBGjAFp5k5WuEUB5N0gOSpENNT0QiZMe_sQvA?e=h7O5dI
 
-# Slides (optional).
-  # Associate this project with Markdown slides.
-  # Simply enter your slide deck's filename without extension.
-  # E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-  # Otherwise, set `slides = ""`.
+## Slides (optional).
+  ## Associate this project with Markdown slides.
+  ## Simply enter your slide deck's filename without extension.
+  ## E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+  ## Otherwise, set `slides = ""`.
 # slides: igcarViva #-slides
 ---
 
