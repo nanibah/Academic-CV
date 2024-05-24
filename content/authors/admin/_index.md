@@ -25,7 +25,7 @@ role: Roboticist
 #     url: https://fieldrobotics.engin.umich.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Roboticist experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors with expertise spanning computer vision and machine learning for robot perception, motion planning and  trajectory optimization, mapping, localization and navigation.  
+bio: Roboticist experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors, perception for Autonomous Underwater Vehicles using advanced machine learning models, with expertise spanning computer vision and machine learning for robot perception, motion planning and  trajectory optimization, mapping, localization and navigation.  
 
 # Interests to show in About widget
 interests:
