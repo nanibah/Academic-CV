@@ -40,11 +40,11 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 <!-- ## Results -->
 <!-- ![screen render text](shipwreck.png "Bounding boxes") -->
 <!-- ![screen render text](featured.png "Process Overview") -->
-### GPS coordinated derivation
+### GPS coordinates derivation
 The output of STARS were segmentation masks with detected shipwrecks. For each shipwreck site, the appropriate threshold intensity was determined from which thresholded segmentation masks were obtained. [Kornia's connected components](https://kornia.github.io/tutorials/nbs/connected_components.html) were used to determine the bounding boxes around the shipwrecks. The frequncy SSS is higher than the GPS present in the deployed AUV to gather shipwreck data at Lake Huron, Michigan. Finally, utilizing the periodic and discontinuous UTM coordinates and the pixel values from the thresholded segmentation masks with bouding boxes, the AUV's trajectory was interpolated and the GPS coordinates of the shipwrecks were derived with 10m accuracy and 30m resolution.  
 ![screen render text](bbx.png "Shipwreck Localization")
 From this result, it can seen that the detected bounding box of ship matches the groundtruth GPS location. In the following image, a zoomed out view of the map can be seen. 
-![screen render text](tbnms.png "TBNMS, Lake Huron, MI")
+![screen render text](tbnms.png "Thunder Bay, Lake Huron, MI")
 
 ### Confidence-score ranking metric
 The ranking was based on _confidence-score_ as the objective was to determine the site with artifacts of most archeaological importance. Thus, the mean of pixel intensities of the thresholded segmentation values were computed for every image across a shipwreck site. The images with the highest mean are displayed in the result and the shipwrecks are displayed according to their rank. 
