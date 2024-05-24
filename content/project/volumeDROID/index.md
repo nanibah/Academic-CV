@@ -3,7 +3,7 @@ title: Volume-DROID: A Real-Time Implementation of Volumetric Mapping with DROID
 summary: Volume-DROID is an innovative real-time 3D semantic mapping architecture that fuses DROID-SLAM for optimized camera poses with ConvBKI for converting point clouds into semantically labeled voxel maps, taking only camera images or video as input.
 tags:
   - Perception
-date: "2023-04-01T00:00:00Z"
+date: '2023-04-01T00:00:00Z'
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: https://github.com/peterstratton/Volume-DROID
