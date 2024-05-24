@@ -116,10 +116,6 @@ sections:
           tag: Perception
         - name: Planning
           tag: Planning
-        - name: SLAM
-          tag: SLAM
-        - name: Others
-          tag: Others
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
