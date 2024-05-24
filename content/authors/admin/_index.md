@@ -110,7 +110,7 @@ Skills:
         icon_pack: git
       - name: OpenCV
         description: ''
-        percent: 70
+        percent: 80
         icon: opencv
         icon_pack: devicon
       - name: NumPy 
