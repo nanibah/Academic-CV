@@ -66,7 +66,7 @@ sections:
           company: University of Michigan Field Robotics Group
           company_url: https://fieldrobotics.engin.umich.edu/
           company_logo: frog
-          location: Ann Arbor
+          location: Ann Arbor, MI, USA
           date_start: '2023-01-01'
           date_end: '2024-04-30'
           description: |2-
@@ -77,7 +77,7 @@ sections:
           company: Hachidori Robotics Private Limited
           company_url: https://hachidorirobotics.com/index.php
           company_logo: hachidori
-          location: Bengaluru
+          location: Bengaluru, KA, India
           date_start: '2021-07-01'
           date_end: '2022-06-30'
           description: |2-
@@ -87,7 +87,7 @@ sections:
           company: Indira Gandhi Centre for Atomic research
           company_url: https://www.igcar.gov.in/index.html
           company_logo: igcar
-          location: Kalpakkam
+          location: Kalpakkam, TN, India
           date_start: '2020-12-01'
           date_end: '2021-06-30'
           description: |2-
