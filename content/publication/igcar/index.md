@@ -69,8 +69,8 @@ url_pdf: 'https://www.inderscienceonline.com/doi/abs/10.1504/IJNEST.2023.132651'
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - Real-time subassembly identification through data fusion of IMU and camera for an nuclear reactor core inspection system
+# projects:
+#   - Real-time subassembly identification through data fusion of IMU and camera for an nuclear reactor core inspection system
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
