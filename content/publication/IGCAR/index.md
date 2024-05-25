@@ -31,7 +31,7 @@ abstract: The Prototype Fast Breeder Reactor (PFBR) is a two loop, sodium cooled
 
 tags:
 - Perception
-featured: true
+featured: false
 
 # links:
 # - name: ""
