@@ -29,8 +29,8 @@ publishDate: '2023-08-07T00:00:00Z'
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: International Journal of Nuclear Energy Science and Technology, Inderscience Publishers
-publication_short: IEL
+publication: "*International Journal of Nuclear Energy Science and Technology, Inderscience Publishers"
+publication_short: "IEL"
 
 abstract: The Prototype Fast Breeder Reactor (PFBR) is a two loop, sodium cooled, pool type reactor. The PFBR reactor core is made up of sub-assemblies holding core material in a hexagonal lattice. The Reactor Core Viewing System in Room Temperature (RCVS-RT) aids in the process of inspection of the reactor core components. It introduces a vision probe into the extracted sub-assembly slot to reach the grid plate top for inspection. This work explores fusing non-contact sensors to a vision sensor to achieve orientation recognition of the RCVS-RT since the orientation is completely lost during the deployment of camera probe. We achieve this by overlaying generated orientation information from non-contact sensors onto the vision data. We use the orientation of the RCVS-RT and the core geometry to generate a numbering scheme of the adjacent sub-assemblies. This allows for a straightforward identification of the subassemblies in the core while maintaining sterility of core components.
 
