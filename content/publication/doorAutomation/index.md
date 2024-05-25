@@ -51,19 +51,24 @@ url_pdf: https://www.researchgate.net/publication/340970266_Automation_of_Vehicl
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+# projects:
+# - internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
+
+### Technical Overview
+Compressed air is provided to the system only when the vehicle driver provides control utilizing a push button or a mechanical lever and the door open. An optical proximity switch is used to detect the movement of the passengers. When the passenger enters or leaves from the vehicle, an electrical signal from the sensor is sent to the solenoid.This signal acts as a pilot for component #3, which keeps the door open.  
+
+When the compressed air is supplied to the entire system, the time delay valve starts. Once the time is delayed, the the door starts closing. Whenever a signal from the optical proximity switch is received, the timer resets, ensuring the safety of the passengers. Once the time is delayed, a roller operated, spring return 3/2 DCV acts as a limit switch to ensure that the door is closed. This signal acts as a pilot to reset the driver control and the system is back to its initial state.
