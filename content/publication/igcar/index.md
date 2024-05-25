@@ -1,5 +1,5 @@
 ---
-title: 'Real-time sub-assembly identification through IMU data fusion with vision sensor for an inspection system'
+title: "Real-time sub-assembly identification through IMU data fusion with vision sensor for an inspection system"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -32,8 +32,7 @@ publication_types: ["article-journal"]
 publication: International Journal of Nuclear Energy Science and Technology, Inderscience Publishers
 publication_short: IEL
 
-abstract: The Prototype Fast Breeder Reactor (PFBR) is a two loop, sodium cooled, pool type reactor. The PFBR reactor core is made up of sub-assemblies holding core material in a hexagonal lattice. The Reactor Core Viewing System in Room Temperature (RCVS-RT) aids in the process of inspection of the 
-reactor core components. It introduces a vision probe into the extracted sub-assembly slot to reach the grid plate top for inspection. This work explores fusing non-contact sensors to a vision sensor to achieve orientation recognition of the RCVS-RT since the orientation is completely lost during the deployment of camera probe. We achieve this by overlaying generated orientation information from non-contact sensors onto the vision data. We use the orientation of the RCVS-RT and the core geometry to generate a numbering scheme of the adjacent sub-assemblies. This allows for a straightforward identification of the subassemblies in the core while maintaining sterility of core components.
+abstract: The Prototype Fast Breeder Reactor (PFBR) is a two loop, sodium cooled, pool type reactor. The PFBR reactor core is made up of sub-assemblies holding core material in a hexagonal lattice. The Reactor Core Viewing System in Room Temperature (RCVS-RT) aids in the process of inspection of the reactor core components. It introduces a vision probe into the extracted sub-assembly slot to reach the grid plate top for inspection. This work explores fusing non-contact sensors to a vision sensor to achieve orientation recognition of the RCVS-RT since the orientation is completely lost during the deployment of camera probe. We achieve this by overlaying generated orientation information from non-contact sensors onto the vision data. We use the orientation of the RCVS-RT and the core geometry to generate a numbering scheme of the adjacent sub-assemblies. This allows for a straightforward identification of the subassemblies in the core while maintaining sterility of core components.
 
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
