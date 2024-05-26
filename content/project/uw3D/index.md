@@ -48,12 +48,25 @@ My contributions to this are as follows,
 ![screen render text](viz.png "Sonar data visualized as LaserScan and MarkerArray in real-time")
 
 ### Optimization problem formulation for sonar pose generation
-Any NeRF-based architecture requires RBG information and camera poses. As we intend to utilize multi-modal data, we require sonar data along with sonar poses. COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It is intended for RGB input and cannot take in sonar data to output sonar poses. So, I present an optimization problem that requires sonar data D<sup>s</sup> consisting of range and intensities (r, &theta;), 3D points x = (X\<sub>c</sub>, Y\<sub>c</sub>, Z\<sub>c</sub>) sampled by the camera and camera poses P<sup>c</sup> as input and produces the transformation matrix from camera to sonar, T<sup>s</sup><sub>c</sub> along with a scaling factor, &alpha;. Pre-multiplying this transformation matrix with the camera poses produces sonar poses assuming that the sonar sampled the same 3D points as the camera. Thus, the formulated optimization problem is,
+Any NeRF-based architecture requires RBG information and camera poses. As we intend to utilize multi-modal data, we require sonar data along with sonar poses. COLMAP is a general-purpose Structure-from-Motion and Multi-View Stereo pipeline with a graphical and command-line interface. It is intended for RGB input and cannot take in sonar data to output sonar poses. So, I present an optimization problem that requires sonar data D<sup>s</sup> consisting of range and intensities (r, &theta;), 3D points x = (X<sub>c</sub>, Y<sub>c</sub>, Z<sub>c</sub>) sampled by the camera and camera poses P<sup>c</sup> as input and produces the transformation matrix from camera to sonar, T<sup>s</sup><sub>c</sub> along with a scaling factor, &alpha;. Pre-multiplying this transformation matrix with the camera poses produces sonar poses assuming that the sonar sampled the same 3D points as the camera. Thus, the formulated optimization problem is,
 
+![screen render text](eqn.png)
+where K is the camera intrinsics, D<sub>w</sub> is the 3D points sampled from the world frame, D<sub>s</sub> is the same world points sampled from the sonar frame, T<sup>c</sup><sub>w</sub> is a homogeneous transformation matrix cenverting 3D points from world frame to camera frame, P<sup>s</sup><sub>c</sub> is the projection of camera into sonar, which is given by coordinate to polar frame transformations.
 
+### Reproduction and extension of [Neusis](https://rpl.ri.cmu.edu/neusis/)
+Neusis was reproduced using HoloOcean simulated dataset provided by the authors. The reproduced classes are 14° planeFull, 14° planeMissing, 14° submarine, 28° planeFull and 28° planeMissing respectively where the angle denotes the elevation aperture of the sonars they used.
+![screen render text](neusis_rep.png "Comparison between the simulated groundtruth data, published results and the reproduced results of three different classes")
 
+#### Truncated Signed Distance Function (TSDF)
+The extension centers on the optimization of the existing Neusis network by replacing the Signed Distance Function (SDF) with [TSDF](https://link.springer.com/content/pdf/10.1007/978-3-319-11755-3_40.pdf). SDF represents a 3D object as a continuous function in space. SDF returns the signed distance from any point in space to the surface of the object (primitive). The output value of this function is always a floating-point number that can have three different meanings depending on the context.
+- Zero: the point is located precisely on the surface of the primitive being rendered.
+- Negative: the point is inside the primitive and smaller values indicates deeper points.
+- Positive: the point is outside the primitive and larger values mean it is farther away from the primitive.
 
+When SDF is truncated at _±t_, large distances are not relevant for surface reconstruction and a restriction at the range of the values can be utilized to reduce memory footprint. In the codebase, _truncation_distance_ variable was introduces and hypertuned to value 0.23 units. The following formulation was designed implemented in the code base.
+![screen render text](tsdf.png "Designed formula leveraging TSDF")
 
-<!-- ![screen render text](tbnms.png "Thunder Bay, Lake Huron, MI") -->
+where _tsdf<sub>i</sub>_ is the truncated signed distance of the _i<sup>th</sup>_ pixel, _d<sub>t</sub>_ is the truncated distance and _d<sub>s</sub>_ is the signed distance. The concept is to conveniently use _d<sub>t</sub>_ and _d<sub>s</sub>_ depending on the situation.
 
-<!-- ![screen render text](shipwreckResults.png) -->
+![screen render text](neusis.png "Extension of the 14° planeFull class. TSDF has overcome noise near the rear end of the plane at earlier epochs")
+
