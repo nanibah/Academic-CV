@@ -48,13 +48,9 @@ My contributions to this are as follows,
 ![screen render text](viz.png "Sonar data visualized as LaserScan and MarkerArray in real-time")
 
 ### Optimization problem formulation for sonar pose generation
-Any NeRF-based architecture requires RBG information and camera poses. As we intend to utilize multi-modal data, we require sonar data along with sonar poses. COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It is intended for RGB input and cannot take in sonar data to output sonar poses. So, I present an optimization problem that requires sonar data $D^{<sup>s</sup>}$ consisting of range and intensities ($r, \theta$), 3D points $x = (X\_<sub>c</sub>, Y\_<sub>c</sub>, Z\_<sub>c</sub>)$ sampled by the camera and camera poses $P^{<sup>c</sup>}$ as input and produces the transformation matrix from camera to sonar, $T^{<sup>s</sup>}\_{<sub>c</sub>}$ along with a scaling factor, $\alpha$. Pre-multiplying this transformation matrix with the camera poses produces sonar poses assuming that the sonar sampled the same 3D points as the camera. Thus, the formulated optimization problem is,
+Any NeRF-based architecture requires RBG information and camera poses. As we intend to utilize multi-modal data, we require sonar data along with sonar poses. COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It is intended for RGB input and cannot take in sonar data to output sonar poses. So, I present an optimization problem that requires sonar data D^<sup>s</sup> consisting of range and intensities (r, \theta), 3D points x = (X\<sub>c</sub>, Y\<sub>c</sub>, Z\<sub>c</sub>) sampled by the camera and camera poses P^<sup>c</sup> as input and produces the transformation matrix from camera to sonar, T^<sup>s</sup>\<sub>c</sub> along with a scaling factor, \alpha. Pre-multiplying this transformation matrix with the camera poses produces sonar poses assuming that the sonar sampled the same 3D points as the camera. Thus, the formulated optimization problem is,
 
-$$
-\begin{equation} 
-T^{<sup>s</sup>_}\_{<sub>c</sub>}, \alpha^<sup>_</sup> = \operatorname{argmin}\_{T^<sup>s</sup>\_<sub>c</sub>, \alpha} \left\|\left\{ {P^{<sup>s</sup>}\_{<sub>c</sub>}}\left(T^{<sup>s</sup>}\_{<sub>c</sub>} \left(\alpha K^{-1} T^{<sup>c</sup>}\_{<sub>w</sub>} D\_{<sub>w</sub>} \right)\right) - D\_<sub>s</sub> \right\}\right\|\_2^2
-\end{equation}
-$$
+
 
 
 
