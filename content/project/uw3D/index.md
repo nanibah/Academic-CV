@@ -66,7 +66,7 @@ The extension centers on the optimization of the existing Neusis network by repl
 When SDF is truncated at _±t_, large distances are not relevant for surface reconstruction and a restriction at the range of the values can be utilized to reduce memory footprint. In the codebase, _truncation_distance_ variable was introduces and hypertuned to value 0.23 units. The following formulation was designed implemented in the code base.
 ![screen render text](tsdf.png "Designed formula leveraging TSDF")
 
-where _tsdf<sub>i</sub>_ is the truncated signed distance of the _i<sup>th</sup>_ pixel, _d<sub>t</sub>_ is the truncated distance and _d<sub>s</sub>_ is the signed distance. The concept is to conveniently use _d<sub>t</sub>_ and _d<sub>s</sub>_ depending on the situation.
+where _tsdf<sub>i</sub>_  is the truncated signed distance of the _i<sup>th</sup>_ pixel, _d<sub>t</sub>_ is the truncated distance and _d<sub>s</sub>_ is the signed distance. The concept is to conveniently use _d<sub>t</sub>_ and _d<sub>s</sub>_ depending on the situation.
 
 ![screen render text](neusis.png "Extension of the 14° planeFull class. TSDF has overcome noise near the rear end of the plane at earlier epochs")
 
