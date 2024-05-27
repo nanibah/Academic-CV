@@ -48,21 +48,3 @@ I designed the complete software to map the movements of joystick to the MGV emp
 360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload
 
 {{< gallery album="<hbr>" >}}
-
-<!-- {{<gallery_item:
-  - album: <hbr>
-    image: <tesjastesting>.mp4
-    caption: Testing joystick mapping to the MGV
-  - album: <hbr>
-    image: <outdoorTesting>.jpeg
-    caption: Experimeting AMR outdoors and documenting battery consumption during uphill and downhill movements
-  - album: <hbr>
-    image: <hbrTeam>.jpeg
-    caption: Hachidori Robotics team :)
-  - album: <hbr>
-    image: <visit>.jpeg
-    caption: Explaining MGV operations during student-visits
-  - album: <hbr>
-    image: <tesjasFAT>.png
-    caption: MGV demo during Factory Assesment Tests
->}} -->
