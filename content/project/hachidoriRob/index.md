@@ -41,4 +41,7 @@ The MGV was built for a custom application deviating from the core objective of 
 ![screen render text](mecWheels.png "Positioning of mecanum wheels to achieve omnidirectional mobility")
 
 I designed the complete software to map the movements of joystick to the MGV employing these equations. I also developed a novel algorithm that enables precise control over the MGV's curved trajectories with versatile turning radii. The algorithm calculates and maps the individual wheel speeds (RPM) to the desired turning radius based on the joystick input by adjusting the ratio of the left and right wheel speeds and dynamically shifting the robot's central axis. 
-![screen render text](tejas.gif "360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload")
+
+{{< video src="tejas.gif" controls="yes" >}}
+<!-- ![screen render text](tejas.gif "360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload") -->
+360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload
