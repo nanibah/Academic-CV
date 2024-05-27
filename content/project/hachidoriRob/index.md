@@ -47,7 +47,9 @@ I designed the complete software to map the movements of joystick to the MGV emp
 {{< video src="tejas.mp4" controls="yes" >}}
 360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload
 
-{{<gallery_item:
+{{< gallery album="<hbr>" >}}
+
+<!-- {{<gallery_item:
   - album: <hbr>
     image: <tesjastesting>.mp4
     caption: Testing joystick mapping to the MGV
@@ -63,4 +65,4 @@ I designed the complete software to map the movements of joystick to the MGV emp
   - album: <hbr>
     image: <tesjasFAT>.png
     caption: MGV demo during Factory Assesment Tests
->}}
+>}} -->
