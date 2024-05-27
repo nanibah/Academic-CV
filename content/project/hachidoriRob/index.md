@@ -50,7 +50,7 @@ I designed the complete software to map the movements of joystick to the MGV emp
 {{< video src="tesjastesting.mp4" controls="yes" >}}
 Testing joystick mapping to the MGV
 
-{{<gallery_item:
+gallery_item:
   - album: hbr
     image: outdoorTesting.jpeg
     caption: Experimeting AMR outdoors and documenting battery consumption during uphill and downhill movements
@@ -63,4 +63,3 @@ Testing joystick mapping to the MGV
   - album: hbr
     image: tesjasFAT.png
     caption: MGV demo during Factory Assesment Tests
->}}
