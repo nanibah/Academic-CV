@@ -1,5 +1,5 @@
 ---
-title: Software developemnt for Autonomous Mobile Robots and Mobile Guided Vehicles
+title: Production-grade Software developemnt for deployment of Autonomous Mobile Robots and Mobile Guided Vehicles
 summary: Hachidori Robotics, a tech startup founded in 2020 with $2M R&D investment and 2 patents, commenced AMR sales in 2022 after 20K+ hours of reliability testing; as an R&D engineer, contributions included Kalman Filter-IMU integration limiting 1° AMR drift, LPS mini-satellite production, and innovative software enabling tele-operated MGV's omnidirectional mobility for precision windmill blade cutting through arbitrary turning radii control.
 tags:
   - Planning
