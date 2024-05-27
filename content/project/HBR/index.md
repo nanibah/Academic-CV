@@ -45,19 +45,20 @@ The MGV was built for a custom application deviating from the core objective of 
 I designed the complete software to map the movements of joystick to the MGV employing these equations. I also developed a novel algorithm that enables precise control over the MGV's curved trajectories with versatile turning radii. The algorithm calculates and maps the individual wheel speeds (RPM) to the desired turning radius based on the joystick input by adjusting the ratio of the left and right wheel speeds and dynamically shifting the robot's central axis. 
 ![screen render text](tejas.gif "360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload")
 
-gallery_item:
-  - album: <ALBUM FOLDER>
+<!-- {{<gallery_item:
+  - album: <assets/media/albums>
     image: <tesjastesting>.gif
     caption: Testing joystick mapping to the MGV
-  - album: <ALBUM FOLDER>
+  - album: <assets/media/albums>
     image: <outdoorTesting>.jpeg
     caption: Experimeting AMR outdoors and documenting battery consumption during uphill and downhill movements
-  - album: <ALBUM FOLDER>
+  - album: <assets/media/albums>
     image: <hbrTeam>.jpeg
     caption: Hachidori Robotics team :)
-  - album: <ALBUM FOLDER>
+  - album: <assets/media/albums>
     image: <visit>.jpeg
     caption: Explaining MGV operations during student-visits
-  - album: <ALBUM FOLDER>
+  - album: <assets/media/albums>
     image: <tesjasFAT>.gif
     caption: MGV demo during Factory Assesment Tests
+>}} -->
