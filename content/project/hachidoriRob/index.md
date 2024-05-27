@@ -49,6 +49,10 @@ My contributions as a R&D Robotics Engineer to the deployment of Autonomous Mobi
 - production and rigorius testing of mini-satellites for deployment of LPS
 - software development and testing of tele-operated mecanum-wheeled MGV achieving omnidirectional mobility for cutting windill blades of arbitrary cutting radii ranging from hundreds of millimeters to tens of meters    
 
+### Autonomous Mobile Robot
+{{< video src="amr.mp4" controls="yes" >}}
+AMR positional correction for accurate picking and placing of wrehouse material despite signal dropout in LPS
+
 ### Mobile Guided Vehicle
 ![screen render text](TEJAS.png "MGV bearing windmill blade-cutting bandsaw untit")
 The MGV was built for a custom application deviating from the core objective of this company being AMR development for warehouse automation. The MGV was equipped with an overhead bandsaw unit weighing about 500kg, to cut windill blades of arbitrary cutting radii ranging from hundreds of millimeters to tens of meters. The main objective was to maneuver in accordance with the shape of the distinct windmill blades retaining mm level accuracy. This was achieved by using an industrial standard joystick and mecanum wheels to maneuver the MGV to any arbitrary location.
@@ -64,4 +68,5 @@ I designed the complete software to map the movements of joystick to the MGV emp
 {{< video src="tesjastesting.mp4" controls="yes" >}}
 Testing joystick mapping to the MGV
 
+#### Photo Gallery
 {{< gallery album="hbr" >}}
