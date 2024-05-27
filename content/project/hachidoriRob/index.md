@@ -26,6 +26,20 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 # slides: example
+
+gallery_item:
+  - album: hbr
+    image: outdoorTesting.jpeg
+    caption: Experimeting AMR outdoors and documenting battery consumption during uphill and downhill movements
+  - album: hbr
+    image: hbrTeam.jpeg
+    caption: Hachidori Robotics team :)
+  - album: hbr
+    image: visit.jpeg
+    caption: Explaining MGV operations during student-visits
+  - album: hbr
+    image: tesjasFAT.png
+    caption: MGV demo during Factory Assesment Tests
 ---
 
 Hachidori Robotics is a tech startup founded in 2020 to automate material and goods movement in industrial and warehousing environments through innovative autonomous mobile robot solutions. With about two million dollars investment in R&D, two patents in indoor positioning and navigation, and 20,000 plus hours of reliability testing, Hachidori's sales and marketing operations commenced in late 2022.
@@ -50,16 +64,4 @@ I designed the complete software to map the movements of joystick to the MGV emp
 {{< video src="tesjastesting.mp4" controls="yes" >}}
 Testing joystick mapping to the MGV
 
-gallery_item:
-  - album: hbr
-    image: outdoorTesting.jpeg
-    caption: Experimeting AMR outdoors and documenting battery consumption during uphill and downhill movements
-  - album: hbr
-    image: hbrTeam.jpeg
-    caption: Hachidori Robotics team :)
-  - album: hbr
-    image: visit.jpeg
-    caption: Explaining MGV operations during student-visits
-  - album: hbr
-    image: tesjasFAT.png
-    caption: MGV demo during Factory Assesment Tests
+{{< gallery album="hbr" >}}
