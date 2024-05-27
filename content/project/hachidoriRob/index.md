@@ -44,5 +44,5 @@ I designed the complete software to map the movements of joystick to the MGV emp
 
 <!-- ![screen render text](tejas.gif "360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload") -->
 
-{{< video src="tejas.mp4" controls="yes" >}}
+{{< video src="tejas.gif" controls="yes" >}}
 360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload
