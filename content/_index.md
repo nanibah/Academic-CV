@@ -81,10 +81,10 @@ sections:
           date_start: '2021-07-01'
           date_end: '2022-06-30'
           description: |2-
-              Software developement for Autonomous Mobile Robots (AMRs) and Mobile Guided Vehicles (MGVs) for warehouse automation and windmill balde cutting applications respectively
+              Software development for Autonomous Mobile Robots (AMRs) and Mobile Guided Vehicles (MGVs) for warehouse automation and windmill blade cutting applications respectively
 
         - title: Intern
-          company: Indira Gandhi Centre for Atomic research
+          company: Indira Gandhi Centre for Atomic Research
           company_url: https://www.igcar.gov.in/index.html
           company_logo: igcar
           location: Kalpakkam, TN, India
