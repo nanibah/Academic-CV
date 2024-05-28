@@ -1,6 +1,6 @@
 ---
 title: Path planning and trajectory optimization amidst static and dynamic obstacles
-summary: TODO
+summary: Through the Algorithmic Robotics coursework, I gained hands-on experience in implementing foundational algorithms for robot planning, state estimation, control, and optimization, showcasing applications in motion planning, uncertainty representation, filtering techniques, and point cloud processing.
 tags:
   - Planning
 date: '2022-07-30T00:00:00Z'
