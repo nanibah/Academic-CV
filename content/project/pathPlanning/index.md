@@ -27,7 +27,7 @@ Through the Algorithmic Robotics coursework, I gained experience in implementing
 
 ### Rapidly Exploring Random Trees (RRT)
 RRT is a sampling-based path planning algorithm used to find a feasible path while navigating through a complex environment with obstacles in high dimensional spaces. The key idea is to build a tree-like structure from start to goal while sampling random neighbours in the configuration space and extending towards it while checking for obstacle collision. In this algorithm, to ensure that the goal is reached in a shorter time, the goal is sampled about 10% of the time, biasing the tree to reach the goal.
-![screen render text](rrtResults.png "Top-view and side-view of RRT-connect for a 6DoF PR2 robot in PyBullet simulation")
+![screen render text](rrtResults.png "Top-view and side-view of RRT-connect generating the computed path (red) and pruning that path (blue) for a 7DoF PR2 robot in PyBullet simulation")
 
 ### Investigating A* and ANA* across multiple heuristics
 <!-- {{< video src="amr.mp4" controls="yes" >}} -->
