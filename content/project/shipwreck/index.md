@@ -1,6 +1,6 @@
 ---
 title: Shipwreck Detection, Localization and Ranking
-summary: Leveraging STARS for semantic segmentation, this project streamlined the underwater archaeological exploration pipeline by accurately deriving GPS coordinates of detected shipwrecks and formulating a confidence-based ranking system to prioritize sites of high archaeological importance for the Thunder Bay National Marine Sanctuary.
+summary: Leveraging shipwreck detection algorithm for semantic segmentation, this project streamlined the underwater archaeological exploration pipeline by accurately deriving GPS coordinates of detected shipwrecks and formulating a confidence-based ranking system to prioritize sites of high archaeological importance for the Thunder Bay National Marine Sanctuary.
 tags:
   - Perception
 date: '2023-05-01T00:00:00Z'
