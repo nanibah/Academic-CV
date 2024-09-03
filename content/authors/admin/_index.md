@@ -51,39 +51,39 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
 
-<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+# <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
 Skills:
   - name: Languages & Frameworks
     items:
       - name: Python
         description: ''
-        percent: 80
+        # percent: 80
         icon: python
         icon_pack: devicon
       - name: C++
         description: ''
-        percent: 70
+        # percent: 70
         icon: cplusplus
         icon_pack: devicon
       - name: Embedded C
         description: ''
-        percent: 65
+        # percent: 65
         icon: C
         icon_pack: devicon
       - name: MATLAB
         description: ''
-        percent: 60
+        # percent: 60
         icon: C
         icon_pack: devicon
       - name: PyTorch
         description: ''
-        percent: 70
+        # percent: 70
         icon: pytorch
         icon_pack: devicon
       - name: TensorFlow
         description: ''
-        percent: 50
+        # percent: 50
         icon: tensorflow
         icon_pack: devicon
 
@@ -93,32 +93,32 @@ Skills:
     items:
       - name: Linux
         description: ''
-        percent: 90
+        # percent: 90
         icon: linux
         icon_pack: devicon
       - name: ROS
         description: ''
-        percent: 90
+        # percent: 90
         icon: ros
         icon_pack: devicon
       - name: Docker
         description: ''
-        percent: 70
+        # percent: 70
         icon: docker
         icon_pack: devicon
       - name: Git
         description: ''
-        percent: 75
+        # percent: 75
         icon: git
         icon_pack: git
       - name: OpenCV
         description: ''
-        percent: 80
+        # percent: 80
         icon: opencv
         icon_pack: devicon
       - name: NumPy 
         description: ''
-        percent: 90
+        # percent: 90
         icon: numpy
         icon_pack: devicon
 
