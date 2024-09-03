@@ -181,7 +181,7 @@ social:
 highlight_name: true
 ---
 
-Roboticist experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors, perception for Autonomous Underwater Vehicles (AUVs) using advanced machine learning models, with expertise spanning computer vision and machine learning for robot perception, motion planning and  trajectory optimization, mapping, localization and navigation.   
+Roboticist currently working with exoskeletons and experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors, perception for Autonomous Underwater Vehicles (AUVs) using advanced machine learning models, with expertise spanning computer vision and machine learning for robot perception, motion planning and  trajectory optimization, mapping, localization and navigation.   
 {style="text-align: justify;"}
 
 <!-- /workspaces/Academic-CV/content/authors/admin/_index.md -->
