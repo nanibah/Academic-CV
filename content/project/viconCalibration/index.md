@@ -42,24 +42,26 @@ links:
 #     caption: MGV demo during Factory Assesment Tests
 ---
 
-Fifteen VICON motion capture cameras spaced across a three-story indoor flight space required an accurate calibration system. Usually, for an accessible one-story space, a person waves around the calibration wand in irregular pattern covering the volume of the volume of the flight space as much as possible. The calibration wand consists of IR sensors uniquely spaced forming a T-shape. The motion capture cameras track these IR sensors as the wand is waved across the flight space. Once the cameras are calibrated, they are capable of returning the exact position of the drone, thus aiding in rone localization and distributed control of aerospace systems.
+Fifteen VICON motion capture cameras spaced across a three-story indoor flight space required an accurate calibration system. Usually, for an accessible one-story space, a person waves around the calibration wand in irregular pattern covering the volume of the flight space as much as possible. The calibration wand consists of IR sensors uniquely spaced forming a T-shape. The motion capture cameras track these IR sensors as the wand is waved across the flight space. Once the cameras are calibrated, they are capable of returning the accurate position of the drone(s), thus aiding in drone localization and distributed control of aerospace systems.
+<!-- ![screen render text](mecWheels.png "Positioning of mecanum wheels to achieve omnidirectional mobility") -->
 
 My contributions to calibrating the three-story indoor flight space are as follows,
-- proposing a low-cost and easily controllable automated calibration system leveraging compound pulley mechanism to control the motion of the calibration wand with minimal changes to the laboratory infrastructure / accounting for the physical limitations of the flight space
-- design of motor mounts, motor-to-pulley couplers and PCB board mounts
-- selection and procurement of motors and embedded components of the automation system
-- software development in embedded C and python for controlling the wand motion acessing the entire flight space
-- determining the location of the pulleys via non-linear optimization as they were outside the field of view of the cameras
-- experimentd to determine the optimal wand waving pattern reducing the collective reprojection error of the cameras    
+- **Automated Calibration System**: Proposed a low-cost and easily controllable automated calibration system leveraging compound pulley mechanism to control the motion of the calibration wand with minimal changes to the laboratory infrastructure, while accounting for the physical limitations of the flight space.
+- **Design and Fabrication**: Designed motor mounts, motor-to-pulley couplers, and PCB board mounts. Selected and procured motors and embedded components for the automation system.
+- **Software Development**: Developed software in embedded C and Python for controlling the wand motion and accessing the entire flight space.
+- **Non-linear Optimization**: Determined the optimal location of the pulleys and estimated their locations via non-linear optimization techniques, as they were outside the field of view of the cameras.
+- **Experimentation**: Conducted experiments to determine the optimal wand waving pattern, reducing the collective reprojection error of the cameras.
+ 
+### Custom-designed parts
+<!-- <script src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<model-viewer src="path/to/your/model.glb" alt="3D model" auto-rotate camera-controls></model-viewer> -->
 
-### Designed and 3D prints parts
-need to display 3D view of the parts
 
 ### Hardware
-The underlying necessity of the problem is to access every nook and corner of the flight spcae and the proposed low-cost easily controllable solution was to introduce _n_ pulley for _n_ corners of the flight space from the ceiling so that by adjecting the length of the ope, the calibration wand could cover the entire volume of the flight space. Given the infrastructure and to prevent the use of expensive equipments and personnel, clamps were used on the vertical and horizontal bars closer to the ceiling. A stepper motoe and a pulley was mounted on these clamps adjacent to each other providing easy access for maintenance and makes it easier for visula supervision during testing and definitely simplifies maintenance. Eyebolts were used to direct the ropes to the corners of the flight space. All these ropes comes together to control the wand motion. 
+The underlying necessity of the problem was to access every nook and corner of the flight space usin the calibartion wand. The proposed low-cost, easily controllable solution was to introduce _n_ pulleys for _n_ corners of the flight space from the ceiling, so that by adjusting the length of the rope, the calibration wand could cover the entire volume of the flight space. Clamps were used on the vertical and horizontal bars closer to the ceiling to mount the stepper motors and pulleys, providing easy access for maintenance and visual supervision during testing. Eyebolts were used to direct the ropes to the corners of the flight space, with all the ropes coming together to control the wand motion.
 
 ### Embedded system
-Every motor is controlled by an arduino through a motor driver and all the arduinos are controlled by a master raspberry pi. During experiemntation, the optimal pattern to wave the calibration wand was identified and are fed in as 3D waypoints to the raspberry pi. Given the current location or starting with a fixated location everytime, allowing for hard coding the starting location, the raspberry pi controld individual arduinos to reach the desired waypoint. 
+Every motor is controlled by an Arduino through a motor driver, and all the Arduinos are controlled by a master Raspberry Pi. During experimentation, the optimal pattern to wave the calibration wand was identified and fed as 3D waypoints to the Raspberry Pi. Allowing for hard-coding the starting location, the Raspberry Pi controls individual Arduinos to reach the desired waypoints.
 
 <!-- ![screen render text](tejas.gif "360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload") -->
 
