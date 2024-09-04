@@ -57,10 +57,10 @@ ReSeFa uses the StyleGAN2 model pre‐trained on the Flickr‐Faces‐HQ (FFHQ) 
 The coordinates of the RoI and the indices of the feature layers chosen to manipulate from hierarchical feature layers are the hyperparameters that influence the direction discovery process.
 
 ### Reproduced qualitative results
-![screen render text](featured.png "Comparison of precise local editing results produced in the original paper and our reimplementation of the original paper. The RoI is highlighted in green boxes while all the rows share the same latent directions")
+In the featured image at the top, the comparison of precise local editing results produced in the original paper and our reimplementation of the original paper can be seen. The RoI is highlighted in green boxes where all the rows share the same latent directions. It can observed that RoI are locally edited with precision retaining other parts of the image, in other words, meaning semantic directions were found to ocally edit only the RoI.
 
 ### Extended qualitative results
-![screen render text](afhqq.png "Qualitative Results from ReSeFa with StyleGAN3 pre‐trained on AFHQ")
+![screen render text](afhqq.png "For extended qualitative results, ReSeFa was run on a different GAN model, StyleGAN3 pre‐trained on AFHQ")
 
 <!-- ![screen render text](tejas.gif "360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload") -->
 
