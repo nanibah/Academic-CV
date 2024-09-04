@@ -62,14 +62,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-         - title: Research Associate
-           company: Distributed Aerospace Systems and Control Laboratory
-           company_url: https://websites.umich.edu/~dpanagou/labs/index.html
-           company_logo: uofm
-           location: Ann Arbor, MI, USA
-           date_start: '2024-06-20'
-           date_end: '2024-07-27'
-           description: |2-
+        - title: Research Associate
+          company: Distributed Aerospace Systems and Control Laboratory
+          company_url: https://websites.umich.edu/~dpanagou/labs/index.html
+          company_logo: uofm
+          location: Ann Arbor, MI, USA
+          date_start: '2024-06-20'
+          date_end: '2024-07-27'
+          description: |2-
             Designed and deployed an automated caibration system levergaing compund pulley mechanism for calibrating fifteen VICON motion capture cameras spaced across a three-story indoor flight space  
         
         - title: Graduate Research Student
