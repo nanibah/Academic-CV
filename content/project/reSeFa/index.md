@@ -52,7 +52,8 @@ The following claims of the author were verified during reimplementation,
  
 ReSeFa uses the StyleGAN2 model pre‐trained on the Flickr‐Faces‐HQ (FFHQ) dataset to produce high‐resolution images. Besides, we also use the StyleGAN3 pre‐trained on the Animal Faces‐HQ (AFHQ) dataset. The degree of editing &alpha; is the hyperparameter that influences the manipulated image generation process. As stated above, we intend to find the latent direction <em>n</em> &in; &Zopf; in such a way that altering a latent code <em>z</em> through the direction can cause the corresponding semantic change in the manipulated image <em>x</em>.
 
-<code>edit(x) &#x25b3; x<sup>edit</sup> = G(z + &alpha; n)</code>
+![screen render text](resafa_eqn.png)
+<span style="font-size: 1.2em; font-weight: bold;">edit(x) &#x25b3; x<sup>edit</sup> = G(z + &alpha; n)</span>
 
 The coordinates of the RoI and the indices of the feature layers chosen to manipulate from hierarchical feature layers are the hyperparameters that influence the direction discovery process.
 
