@@ -1,10 +1,10 @@
 ---
 title: "Volume-DROID: A Real-Time Implementation of Volumetric Mapping with DROID-SLAM"
 authors:
-- admin
 - Peter Stratton 
 - Sandilya Sai Garimella 
 - Ashwin Saxena
+- admin
 - Emaad Gerami
 # author_notes:
 # - "Equal contribution"

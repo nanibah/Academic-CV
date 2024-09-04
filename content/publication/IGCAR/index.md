@@ -1,8 +1,8 @@
 ---
 title: "Real-time sub-assembly identification through IMU data fusion with vision sensor for an inspection system"
 authors:
-- admin
 - Thirumalaesh A
+- admin
 - Joseph Winston S 
 - Joel Jose 
 - Rathika PD

@@ -1,12 +1,12 @@
 ---
 title: "Automation of Vehicle Door"
 authors:
-- admin
 - Shalikha R
+- admin
 - Puhazhmathi M
 - Suresh M
 date: "2020-01-28T00:00:00Z"
-doi: " https://doi.org/10.34256/irjat2011    "
+# doi: " https://doi.org/10.34256/irjat2011"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-28T00:00:00Z"
