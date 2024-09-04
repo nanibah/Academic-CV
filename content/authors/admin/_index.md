@@ -53,68 +53,68 @@ education:
 
 # <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
-Skills:
-  - name: Languages & Frameworks
-    items:
-      - name: Python
-        description: ''
-        icon: python
-        icon_pack: devicon
-      - name: C++
-        description: ''
-        icon: cplusplus
-        icon_pack: devicon
-      - name: Embedded C
-        description: ''
-        icon: C
-        icon_pack: devicon
-      - name: MATLAB
-        description: ''
-        icon: C
-        icon_pack: devicon
-      - name: PyTorch
-        description: ''
-        icon: pytorch
-        icon_pack: devicon
-      - name: TensorFlow
-        description: ''
-        icon: tensorflow
-        icon_pack: devicon
+# Skills:
+#   - name: Languages & Frameworks
+#     items:
+#       - name: Python
+#         description: ''
+#         icon: python
+#         icon_pack: devicon
+#       - name: C++
+#         description: ''
+#         icon: cplusplus
+#         icon_pack: devicon
+#       - name: Embedded C
+#         description: ''
+#         icon: C
+#         icon_pack: devicon
+#       - name: MATLAB
+#         description: ''
+#         icon: C
+#         icon_pack: devicon
+#       - name: PyTorch
+#         description: ''
+#         icon: pytorch
+#         icon_pack: devicon
+#       - name: TensorFlow
+#         description: ''
+#         icon: tensorflow
+#         icon_pack: devicon
 
-  - name: Development Tools & Platforms
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Linux
-        description: ''
-        # percent: 90
-        icon: linux
-        icon_pack: devicon
-      - name: ROS
-        description: ''
-        # percent: 90
-        icon: ros
-        icon_pack: devicon
-      - name: Docker
-        description: ''
-        # percent: 70
-        icon: docker
-        icon_pack: devicon
-      - name: Git
-        description: ''
-        # percent: 75
-        icon: git
-        icon_pack: git
-      - name: OpenCV
-        description: ''
-        # percent: 80
-        icon: opencv
-        icon_pack: devicon
-      - name: NumPy 
-        description: ''
-        # percent: 90
-        icon: numpy
-        icon_pack: devicon
+#   - name: Development Tools & Platforms
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Linux
+#         description: ''
+#         # percent: 90
+#         icon: linux
+#         icon_pack: devicon
+#       - name: ROS
+#         description: ''
+#         # percent: 90
+#         icon: ros
+#         icon_pack: devicon
+#       - name: Docker
+#         description: ''
+#         # percent: 70
+#         icon: docker
+#         icon_pack: devicon
+#       - name: Git
+#         description: ''
+#         # percent: 75
+#         icon: git
+#         icon_pack: git
+#       - name: OpenCV
+#         description: ''
+#         # percent: 80
+#         icon: opencv
+#         icon_pack: devicon
+#       - name: NumPy 
+#         description: ''
+#         # percent: 90
+#         icon: numpy
+#         icon_pack: devicon
 
   # - name: Libraries & Frameworks
   #   # color: '#ceac02'
