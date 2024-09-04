@@ -65,7 +65,7 @@ sections:
         - title: Research Intern
           company: Locomotor Control Systems Laboratory
           company_url: https://locolab.robotics.umich.edu/
-          company_logo: localLab(2)
+          company_logo: localLab
           location: Ann Arbor, MI, USA
           date_start: '2024-08-06'
           # date_end: '2024-07-27'
