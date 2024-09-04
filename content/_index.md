@@ -62,6 +62,16 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Intern
+          company: Locomotor Control Systems Laboratory
+          company_url: https://locolab.robotics.umich.edu/
+          company_logo: localLab
+          location: Ann Arbor, MI, USA
+          date_start: '2024-08-06'
+          # date_end: '2024-07-27'
+          description: |2-
+            Working on personalizing gait-state on wearable exoskeltons using factor graph optimization techniques
+        
         - title: Research Associate
           company: Distributed Aerospace Systems and Control Laboratory
           company_url: https://websites.umich.edu/~dpanagou/labs/index.html
