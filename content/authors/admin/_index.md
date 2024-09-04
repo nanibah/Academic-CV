@@ -58,32 +58,26 @@ Skills:
     items:
       - name: Python
         description: ''
-        # percent: 80
         icon: python
         icon_pack: devicon
       - name: C++
         description: ''
-        # percent: 70
         icon: cplusplus
         icon_pack: devicon
       - name: Embedded C
         description: ''
-        # percent: 65
         icon: C
         icon_pack: devicon
       - name: MATLAB
         description: ''
-        # percent: 60
         icon: C
         icon_pack: devicon
       - name: PyTorch
         description: ''
-        # percent: 70
         icon: pytorch
         icon_pack: devicon
       - name: TensorFlow
         description: ''
-        # percent: 50
         icon: tensorflow
         icon_pack: devicon
 
