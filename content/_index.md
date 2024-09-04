@@ -70,7 +70,7 @@ sections:
            date_start: '2024-06-20'
            date_end: '2024-07-27'
            description: |2-
-               Designed and deployed an automated caibration system levergaing compund pulley mechanism for calibrating fifteen VICON motion capture cameras spaced across a three-story indoor flight space.  
+              Designed and deployed an automated caibration system levergaing compund pulley mechanism for calibrating fifteen VICON motion capture cameras spaced across a three-story indoor flight space.  
         
         - title: Graduate Research Student
           company: University of Michigan Field Robotics Group
