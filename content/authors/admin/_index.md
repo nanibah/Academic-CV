@@ -53,14 +53,14 @@ education:
 # <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
 Skills:
-  - name: Languages & Frameworks
-    items:
-      - name: Python
-      - name: C++
-      - name: Embedded C
-      - name: MATLAB
-      - name: PyTorch
-      - name: TensorFlow
+  # - name: Languages & Frameworks
+  #   items:
+  #     - name: Python
+  #     - name: C++
+  #     - name: Embedded C
+  #     - name: MATLAB
+  #     - name: PyTorch
+  #     - name: TensorFlow
   - name: Development Tools & Platforms
     items:
       - Linux
