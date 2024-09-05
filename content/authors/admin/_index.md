@@ -51,7 +51,24 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#iconss
 
 # <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
+
+Skills:
+  -name: Languages & Frameworks
+    - **Python**
+    - **C++**
+    - **Embedded C**
+    - **MATLAB**
+    - **PyTorch**
+    - **TensorFlow**
+  -name: Development Tools & Platforms
+    - **Linux**
+    - **ROS**
+    - **Docker**
+    - **Git**
+    - **OpenCV**
+    - **SOLIDWORKS**
+
+
 # Skills:
 #   - name: Languages & Frameworks
 #     items:
