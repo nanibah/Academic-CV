@@ -173,13 +173,13 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-<div style="text-align: justify;">
-  I am Robotics master's graduate from the University of Michigan, currently working with Professor [Robert D. Gregg](https://gregg.engin.umich.edu/) on personalizing gait-state for exoskeletons. 
+<!-- <div style="text-align: justify;"> -->
+I am Robotics master's graduate from the University of Michigan, currently working with Professor [Robert Gregg](https://gregg.engin.umich.edu/) on personalizing gait-state for exoskeletons. 
 
-  I collaborated with Professor [Katie Skinner](https://robotics.umich.edu/profile/katherine-skinner/) for my directed study on enhancing perception for Autonomous Underwater Vehicles. Prior to my master's, I worked as a R&D Engineer at [Hachidori Robotics](https://hachidorirobotics.com/), where I developed production-grade software for deployment of Autonomous Mobile Robots enabling warehouse automation. I also interned at [IGCAR](https://www.igcar.gov.in/) and worked with [Dr.Joseph Winston](https://www.linkedin.com/in/sjwinston/?originalSubdomain=in) on resolving spatial awareness for nuclear reactor core inspection systems. 
+I collaborated with Professor [Katie Skinner](https://robotics.umich.edu/profile/katherine-skinner/) for my directed study on enhancing perception for Autonomous Underwater Vehicles. Prior to my master's, I worked as a R&D Engineer at [Hachidori Robotics](https://hachidorirobotics.com/), where I developed production-grade software for deployment of Autonomous Mobile Robots enabling warehouse automation. I also interned at [IGCAR](https://www.igcar.gov.in/) and worked with [Dr.Joseph Winston](https://www.linkedin.com/in/sjwinston/?originalSubdomain=in) on resolving spatial awareness for nuclear reactor core inspection systems. 
 
-  With a passion for solving real-world challenges, I aim to elevate robotics solutions addressing complex problems in healthcare, marine exploration, industrial automation and beyond.
-</div>
-<!-- {style="text-align: justify;"} -->
+With a passion for solving real-world challenges, I aim to elevate robotics solutions addressing complex problems in healthcare, marine exploration, industrial automation and beyond.
+<!-- </div> -->
+{style="text-align: justify;"}
 
 <!-- /workspaces/Academic-CV/content/authors/admin/_index.md -->
