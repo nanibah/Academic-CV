@@ -70,7 +70,7 @@ sections:
           date_start: '2024-08-06'
           # date_end: '2024-07-27'
           description: |2-
-            Working on personalizing gait-state on wearable exoskeltons using factor graph optimization techniques
+            Working on personalizing gait-state on wearable exoskeletons using factor graph optimization techniques
         
         - title: Research Associate
           company: Distributed Aerospace Systems and Control Laboratory

@@ -17,7 +17,7 @@ last_name: Naresh Babu Amutha
 superuser: true
 
 # Role/position/tagline
-role: Roboticist
+role: Robotics Engineer
 
 # Organizations/Affiliations to show in About widget
 # organizations:
@@ -30,18 +30,17 @@ role: Roboticist
 # Interests to show in About widget
 interests:
   - Algorithm Development
-  - Computer Vision 
-  - DL, ML & AI
-  - Mobile Robotics
-  - Perception & Planning
+  - Deep Learning for Robot Perception
+  - Path Planning & Trajectory Optimization
+  - Localization, Mapping & Navigation
 
 # Education to show in About widget
 education:
   courses:
-    - course: MS in Robotics
+    - course: Master of Sceince in Robotics
       institution: University of Michigan, Ann Arbor
       year: 2024
-    - course: BE in Robotics & Automation
+    - course: Bachelor of Engineering in Robotics & Automation
       institution: PSG College of Technology, Coimbatore
       year: 2021
     - course: Diploma in Mechatronics
@@ -174,8 +173,13 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+<div style="text-align: justify;">
+  I am Robotics master's graduate from the University of Michigan, currently working with Professor [Robert D. Gregg](https://gregg.engin.umich.edu/) on personalizing gait-state for exoskeletons. 
 
-Roboticist currently working with exoskeletons and experienced in developing production-grade software for deployment of Autonomous Mobile Robots (AMRs) in dynamic industrial shopfloors, perception for Autonomous Underwater Vehicles (AUVs) using advanced machine learning models, and expertise spanning computer vision and machine learning for robot perception, motion planning and trajectory optimization, mapping, localization and navigation.   
-{style="text-align: justify;"}
+  I collaborated with Professor [Katie Skinner](https://robotics.umich.edu/profile/katherine-skinner/) for my directed study on enhancing perception for Autonomous Underwater Vehicles. Prior to my master's, I worked as a R&D Engineer at [Hachidori Robotics](https://hachidorirobotics.com/), where I developed production-grade software for deployment of Autonomous Mobile Robots enabling warehouse automation. I also interned at [IGCAR](https://www.igcar.gov.in/) and worked with [Dr.Joseph Winston](https://www.linkedin.com/in/sjwinston/?originalSubdomain=in) on resolving spatial awareness for nuclear reactor core inspection systems. 
+
+  With a passion for solving real-world challenges, I aim to elevate robotics solutions addressing complex problems in healthcare, marine exploration, industrial automation and beyond.
+</div>
+<!-- {style="text-align: justify;"} -->
 
 <!-- /workspaces/Academic-CV/content/authors/admin/_index.md -->
