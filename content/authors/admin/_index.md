@@ -55,20 +55,20 @@ education:
 Skills:
   - name: Languages & Frameworks
     items:
-      - name: **Python**
-      - name: **C++**
-      - name: **Embedded C**
-      - name: **MATLAB**
-      - name: **PyTorch**
-      - name: **TensorFlow**
+      - name: Python
+      - name: C++
+      - name: Embedded C
+      - name: MATLAB
+      - name: PyTorch
+      - name: TensorFlow
   - name: Development Tools & Platforms
     items:
-      - **Linux**
-      - **ROS**
-      - **Docker**
-      - **Git**
-      - **OpenCV**
-      - **SOLIDWORKS**
+      - Linux
+      - ROS
+      - Docker
+      - Git
+      - OpenCV
+      - SOLIDWORKS
 
 
 # Skills:
