@@ -29,10 +29,10 @@ role: Robotics Engineer
 
 # Interests to show in About widget
 interests:
-  - Algorithm Development
   - Deep Learning for Robot Perception
   - Path Planning & Trajectory Optimization
   - Localization, Mapping & Navigation
+  - Autonomous Systems
 
 # Education to show in About widget
 education:
