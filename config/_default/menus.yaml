@@ -24,7 +24,7 @@ main:
     url: '#featured'
     weight: 30
   - name: Contact
-    url: '#contact'
+    url: nibah@umich.edu
     weight: 40
   # - name: CV
   #   url: https://drive.google.com/file/d/19E7ZKW9Yk3jnx_iDgVzzoUW5eEMG45fa/view?usp=sharing
