@@ -79,3 +79,4 @@ Add the publication's **full text** or **supplementary notes** here. You can use
 
 ### Result
 ![Volume-DROID generating semantically laeled voxels](output.gif)
+{{< video src="output.mp4" controls="yes" >}}
