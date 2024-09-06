@@ -93,7 +93,7 @@ sections:
               * Underwater 3D Reconstruction using Imaging Sonar and Monocular Camera
               * Shipwreck Detection, Localization and Ranking using Side-Scan-Sonar
 
-        - title: Research Engineer
+        - title: Robotics R&D Engineer
           company: Hachidori Robotics Private Limited
           company_url: https://hachidorirobotics.com/index.php
           company_logo: hbr
@@ -115,6 +115,22 @@ sections:
     design:
       columns: '2'
   
+  - block: collection
+    content:
+      title: Publications
+      # text: |-
+        # {{% callout note %}}
+        # Quickly discover relevant content by [filtering publications](./publication/).
+        # {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+      flip_alt_rows: false
+
   - block: portfolio
     id: projects
     content:
@@ -143,22 +159,6 @@ sections:
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
-      
-  - block: collection
-    content:
-      title: Publications
-      # text: |-
-        # {{% callout note %}}
-        # Quickly discover relevant content by [filtering publications](./publication/).
-        # {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
       flip_alt_rows: false
 ---
 
