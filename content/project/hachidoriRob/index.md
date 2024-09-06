@@ -54,7 +54,7 @@ My contributions as a R&D Robotics Engineer to the deployment of Autonomous Mobi
 AMR positional correction for accurate picking and placing of wrehouse material despite signal dropout in LPS
 
 ### Mobile Guided Vehicle
-![screen render text](TEJAS.png "MGV bearing windmill blade-cutting bandsaw untit")
+![screen render text](tejasBright.png "MGV bearing windmill blade-cutting bandsaw untit")
 The MGV was built for a custom application deviating from the core objective of this company being AMR development for warehouse automation. The MGV was equipped with an overhead bandsaw unit weighing about 500kg, to cut windill blades of arbitrary cutting radii ranging from hundreds of millimeters to tens of meters. The main objective was to maneuver in accordance with the shape of the distinct windmill blades retaining mm level accuracy. This was achieved by using an industrial standard joystick and mecanum wheels to maneuver the MGV to any arbitrary location.
 ![screen render text](mecWheels.png "Positioning of mecanum wheels to achieve omnidirectional mobility")
 
