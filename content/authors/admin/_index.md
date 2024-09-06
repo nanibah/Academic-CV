@@ -166,7 +166,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'nibah@umich.edu'
+    link: nibah@umich.edu
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
