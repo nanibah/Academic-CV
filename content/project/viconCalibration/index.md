@@ -3,7 +3,7 @@ title: Automated compound pulley system development for accurate VICON motion ca
 summary: An automated calibration system leveraging compound pulley mechanism was designed and deployed to calibrate fifteen VICON motion capture cameras spaced across a three-story indoor flight space. 
 # tags:
 #   - Hardware
-date: '2024-06-20T00:00:00Z'
+date: '2024-07-20T00:00:00Z'
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'

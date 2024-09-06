@@ -3,7 +3,7 @@ title: "Real-time subassembly identification through data fusion of IMU and came
 summary: Resolving orientation awareness challenges in nuclear reactor core inspections through an innovative numbering scheme and data fusion of IMU and camera.
 tags:
   - Perception
-date: '2021-06-01T00:00:00Z'
+date: '2023-12-01T00:00:00Z'
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: https://github.com/peterstratton/Volume-DROID
