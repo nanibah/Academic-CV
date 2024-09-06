@@ -3,7 +3,7 @@ title: Motion planning amidst static and dynamic obstacles
 summary: Through the Algorithmic Robotics coursework, I gained hands-on experience in implementing foundational algorithms for robot planning, state estimation, control, and optimization, showcasing applications in motion planning, uncertainty representation, filtering techniques, and point cloud processing.
 tags:
   - Planning
-date: '2022-07-30T00:00:00Z'
+date: '2023-12-30T00:00:00Z'
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: 'https://drive.google.com/drive/folders/1QiKoDUbkspXU7acjHh91cRRhuZhNsnxe'
