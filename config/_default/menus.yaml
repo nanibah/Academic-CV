@@ -27,5 +27,5 @@ main:
     url: '#contact'
     weight: 40
   - name: CV
-    url: /workspaces/niba.github.io/static/uploads/reume.pdf
+    url: https://drive.google.com/file/d/19E7ZKW9Yk3jnx_iDgVzzoUW5eEMG45fa/view?usp=sharing
     weight: 50

@@ -187,7 +187,7 @@ social:
   # and uncomment the lines below.
   - icon: cv 
     icon_pack: ai
-    link: /workspaces/niba.github.io/static/uploads/reume.pdf
+    link: https://drive.google.com/file/d/19E7ZKW9Yk3jnx_iDgVzzoUW5eEMG45fa/view?usp=sharing
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
