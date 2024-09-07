@@ -38,13 +38,13 @@ interests:
 education:
   courses:
     - course: Master of Sceince in Robotics
-      institution: University of Michigan, Ann Arbor
+      institution: University of Michigan, USA
       year: 2024
     - course: Bachelor of Engineering in Robotics & Automation
-      institution: PSG College of Technology, Coimbatore
+      institution: PSG College of Technology, India
       year: 2021
     - course: Diploma in Mechatronics
-      institution: PSG Polytechnic College, Coimbatore
+      institution: PSG Polytechnic College, India
       year: 2018
 
 # Skills
@@ -197,7 +197,7 @@ Hey, I'm Niba! I am Robotics master's graduate from the University of Michigan, 
 
 I collaborated with [Dr.Katie Skinner](https://robotics.umich.edu/profile/katherine-skinner/) for my directed study on enhancing perception for Autonomous Underwater Vehicles. Prior to my master's, I worked as a R&D Engineer at [Hachidori Robotics](https://hachidorirobotics.com/), where I developed production-grade software for deployment of Autonomous Mobile Robots enabling warehouse automation. I also interned at [IGCAR](https://www.igcar.gov.in/) and worked with [Dr.Joseph Winston](https://www.linkedin.com/in/sjwinston/?originalSubdomain=in) on resolving spatial awareness for nuclear reactor core inspection systems. 
 
-Looking forward to connect with you :)
+Looking forward to connecting with you :)
 <!-- </div> -->
 {style="text-align: justify;"}
 

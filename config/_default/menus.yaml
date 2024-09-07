@@ -19,10 +19,10 @@ main:
     weight: 10
   - name: Projects
     url: '#projects'
-    weight: 20
+    weight: 30
   - name: Publications
     url: '#featured'
-    weight: 30
+    weight: 20
   # - name: Contact
   #   url: nibah@umich.edu
   #   weight: 40
