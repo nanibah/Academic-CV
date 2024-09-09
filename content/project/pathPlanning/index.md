@@ -1,5 +1,5 @@
 ---
-title: Motion planning amidst static and dynamic obstacles
+title: Motion planning amidst static and dynamic obstacles for mobile manipulators
 summary: Through the Algorithmic Robotics coursework, I gained hands-on experience in implementing foundational algorithms for robot planning, state estimation, control, and optimization, showcasing applications in motion planning, uncertainty representation, filtering techniques, and point cloud processing.
 tags:
   - Planning

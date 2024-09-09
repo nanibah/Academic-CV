@@ -1,5 +1,5 @@
 ---
-title: Underwater 3D Reconstruction using imaging sonar and monocular camera
+title: Underwater 3D Reconstruction using imaging sonar and monocular camera using Deep Learning
 summary: Underwater 3D reconstruction using Neural Radiance Fields (NeRF) by fusing monocular camera and multibeam sonar data, highlighting contributions in sensor driver development, data synchronization, sonar pose optimization, visualizer creation, reproduction and extension of state-of-the-art 3D reconstruction models.
 tags:
   - Perception
