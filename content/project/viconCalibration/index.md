@@ -19,7 +19,7 @@ links:
 # url_pdf: ''
 # url_slides: ''
 # url_video: ''
-
+ 
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
@@ -52,21 +52,21 @@ My contributions to calibrating the three-story indoor flight space are as follo
 - **Non-linear Optimization**: Determined the optimal location of the pulleys and estimated their locations via non-linear optimization techniques, as they were outside the field of view of the cameras.
 - **Experimentation**: Conducted experiments to determine the optimal wand waving pattern, reducing the collective reprojection error of the cameras.
  
-### Custom-designed parts
+<!-- ### Custom-designed parts -->
 <!-- <script src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
 <model-viewer src="path/to/your/model.glb" alt="3D model" auto-rotate camera-controls></model-viewer> -->
 
 
 ### Hardware
+![screen render text](viconHW.png "Rpi and pulleys coupled with motors mounted on an horizontal bar. Each pulley has an controlled inflow and outflow of the rope as the rope flow is constrained by an eyebolt preventing rope slip. The ropes are extended to the corners of the room through compound pulleys")
 The underlying necessity of the problem was to access every nook and corner of the flight space usin the calibartion wand. The proposed low-cost, easily controllable solution was to introduce _n_ pulleys for _n_ corners of the flight space from the ceiling, so that by adjusting the length of the rope, the calibration wand could cover the entire volume of the flight space. Clamps were used on the vertical and horizontal bars closer to the ceiling to mount the stepper motors and pulleys, providing easy access for maintenance and visual supervision during testing. Eyebolts were used to direct the ropes to the corners of the flight space, with all the ropes coming together to control the wand motion.
 
 ### Embedded system
 Every motor is controlled by an Arduino through a motor driver, and all the Arduinos are controlled by a master Raspberry Pi. During experimentation, the optimal pattern to wave the calibration wand was identified and fed as 3D waypoints to the Raspberry Pi. Allowing for hard-coding the starting location, the Raspberry Pi controls individual Arduinos to reach the desired waypoints.
 
-<!-- ![screen render text](tejas.gif "360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload") -->
-
-<!-- {{< video src="tejas.mp4" controls="yes" >}}
-360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload -->
+### Demo
+{{< video src="demo.mp4" controls="yes" >}}
+A short clip of the pulleys controlling the calibration wand at 7 meters along the corner of the indoor flight space
 
 <!-- #### Photo Gallery
 {{< gallery album="hbr" >}} -->
