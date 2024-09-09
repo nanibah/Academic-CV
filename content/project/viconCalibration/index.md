@@ -19,27 +19,6 @@ links:
 # url_pdf: ''
 # url_slides: ''
 # url_video: ''
- 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
-
-# gallery_item:
-#   - album: hbr
-#     image: outdoorTesting.jpeg
-#     caption: Experimeting AMR outdoors and documenting battery consumption during uphill and downhill movements
-#   - album: hbr
-#     image: hbrTeam.jpeg
-#     caption: Hachidori Robotics team :)
-#   - album: hbr
-#     image: visit.jpeg
-#     caption: Explaining MGV operations during student-visits
-#   - album: hbr
-#     image: tesjasFAT.png
-#     caption: MGV demo during Factory Assesment Tests
 ---
 
 Fifteen VICON motion capture cameras spaced across a three-story indoor flight space required an accurate calibration system. Usually, for an accessible one-story space, a person waves around the calibration wand in irregular pattern covering the volume of the flight space as much as possible. The calibration wand consists of IR sensors uniquely spaced forming a T-shape. The motion capture cameras track these IR sensors as the wand is waved across the flight space. Once the cameras are calibrated, they are capable of returning the accurate position of the drone(s), thus aiding in drone localization and distributed control of aerospace systems.
