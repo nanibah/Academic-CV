@@ -44,8 +44,12 @@ The underlying necessity of the problem was to access every nook and corner of t
 Every motor is controlled by an Arduino through a motor driver, and all the Arduinos are controlled by a master Raspberry Pi. During experimentation, the optimal pattern to wave the calibration wand was identified and fed as 3D waypoints to the Raspberry Pi. Allowing for hard-coding the starting location, the Raspberry Pi controls individual Arduinos to reach the desired waypoints.
 
 ### Demo
+{{< video src="centre.mp4" controls="yes" >}}
+{{< video src="corner.mp4" controls="yes" >}}
+VICON cameras tracking the calibration wand along the centre and corners of the flight space while displaying the reconstruction position in real-time along X, Y and Z axes 
+
 {{< video src="demo.mp4" controls="yes" >}}
-A short clip of the pulleys controlling the calibration wand at 7 meters along the corner of the indoor flight space
+A short clip of the pulleys controlling the calibration wand at 7 meters height along the corner of the indoor flight space
 
 <!-- #### Photo Gallery
 {{< gallery album="hbr" >}} -->
