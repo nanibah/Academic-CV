@@ -2,7 +2,7 @@
 title: Extension of Region-based Semantic Factorization in GANs (ReSeFa) to animal faces
 summary: Reproduced ReSeFa to factorize latent space semantics for regions of interest for human faces and extended ReSeFa for editing animal faces  
 tags:
-  - Perception
+  - Course work
 date: '2022-12-20T00:00:00Z'
 
 # # Optional external URL for project (replaces project detail page).

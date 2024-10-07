@@ -149,12 +149,12 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Perception
-          tag: Perception
-        - name: Planning
-          tag: Planning
-        # - name: Hardware
-        #   tag: Hardware
+        - name: Employment
+          tag: Employment
+        - name: Research
+          tag: Research
+        - name: Course work
+          tag: Course work
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
