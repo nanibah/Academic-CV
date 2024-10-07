@@ -149,10 +149,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Employment
-          tag: Employment
-        - name: Research
-          tag: Research
+        - name: Experience
+          tag: Experience
+        # - name: Research
+        #   tag: Research
         - name: Course work
           tag: Course work
     design:

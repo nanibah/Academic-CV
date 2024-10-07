@@ -2,7 +2,7 @@
 title: Underwater 3D Reconstruction using imaging sonar and monocular via Deep Learning models
 summary: I set up the foundation for tackling 3D reconstruction of underwater environment by employing state-of-the-art Neural Implicit Representation models. This involved fusing monocular camera and multibeam sonar data, developing sensor drivers for real-world data acquisition, synchronizing sensor data, generating sonar poses for custom dataset, creating a ROS-based data collection visualizer, and reproducing 3D reconstruction deep learning model baselines on custom dataset.
 tags:
-  - Research
+  - Experience
 date: '2024-04-01T00:00:00Z'
 
 # # Optional external URL for project (replaces project detail page).
