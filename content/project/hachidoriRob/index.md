@@ -1,6 +1,6 @@
 ---
 title: Production-grade Software development for deployment of Autonomous Mobile Robots and Mobile Guided Vehicles
-summary: Hachidori Robotics, a tech startup founded in 2020 with $2M R&D investment and 2 patents, commenced AMR sales in 2022 after 20K+ hours of reliability testing; as an R&D engineer, contributions included Kalman Filter-IMU integration limiting 1° AMR drift, LPS mini-satellite production, and innovative software enabling tele-operated MGV's omnidirectional mobility for precision windmill blade cutting through arbitrary turning radii control.
+summary: My contributions to Hachidori Robotics, a 10-member tech startup, included Kalman Filter-IMU integration limiting Autonomous Mobile Robots' drift to 1°, mini-satellite production for Local Positionong System, and building a controller to enable heavy-duty Mobile Guided Vehicle of about 250kg with omnidirectional mobility for precision windmill blade cutting application.
 tags:
   - Experience
 date: '2022-06-30T00:00:00Z'
@@ -42,12 +42,12 @@ gallery_item:
     caption: MGV demo during Factory Assesment Tests
 ---
 
-Hachidori Robotics is a tech startup founded in 2020 to automate material and goods movement in industrial and warehousing environments through innovative autonomous mobile robot solutions. With about two million dollars investment in R&D, two patents in indoor positioning and navigation, and 20,000 plus hours of reliability testing, Hachidori's sales and marketing operations commenced in late 2022.
+Hachidori Robotics, a 10-member tech startup founded in 2020, focused on automating material and goods movement in industrial and warehouse environments. The company's Autonomous Mobile Robots (AMRs) were designed to seamlessly integrate into dynamic environments, navigating alongside human workers to enhance material handling and workflow efficiency. 
 
-My contributions as a R&D Robotics Engineer to the deployment of Autonomous Mobile Robots (AMRs) and Mobile Guided Vehicles(MGVs) are as follows,
-- integration of Kalman Filter with IMU to account for signal dropout from Local Positioning System (LPS) for autonomous indoor navigation limiting AMR's positional drift to 1°
+My contributions as a R&D Robotics Engineer to the deployment of AMRs and Mobile Guided Vehicles(MGVs) are as follows,
+- integration of IMU-based Kalman Filter to the autonomy stack to account for signal dropout from Local Positioning System (LPS) for autonomous indoor navigation limiting AMR's orientational drift to 1°
 - production and rigorius testing of mini-satellites for deployment of LPS
-- software development and testing of tele-operated mecanum-wheeled MGV achieving omnidirectional mobility for cutting windill blades of arbitrary cutting radii ranging from hundreds of millimeters to tens of meters    
+- development and testing of a controller for mecanum-wheeled MGV and achieved omnidirectional mobility for cutting windill blades of arbitrary cutting radii ranging from hundreds of millimeters to tens of meters    
 
 ### Autonomous Mobile Robot
 {{< video src="amr.mp4" controls="yes" >}}
