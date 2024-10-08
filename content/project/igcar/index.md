@@ -1,6 +1,6 @@
 ---
 title: "Real-time subassembly identification through data fusion of IMU and camera for an nuclear reactor core inspection system"
-summary: Resolving orientation awareness challenges in nuclear reactor core inspections through an innovative numbering scheme and data fusion of IMU and camera.
+summary: We addressed orientation awareness challenges during nuclear reactor core inspections by designing a unique numbering scheme. Using this scheme, we developed an algorithm that fuses IMU and camera data, enabling real-time orientation tracking as the inspection system navigates through the reactor core.
 tags:
   - Experience
 date: '2021-06-01T00:00:00Z'
