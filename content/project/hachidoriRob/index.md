@@ -42,7 +42,7 @@ gallery_item:
     caption: MGV demo during Factory Assesment Tests
 ---
 
-Hachidori Robotics, a 10-member tech startup founded in 2020, focused on automating material and goods movement in industrial and warehouse environments. The company's Autonomous Mobile Robots (AMRs) were designed to seamlessly integrate into dynamic environments, navigating alongside human workers to enhance material handling and workflow efficiency. 
+Hachidori Robotics, a 11-member tech startup founded in 2020, focused on automating material and goods movement in industrial and warehouse environments. The company's Autonomous Mobile Robots (AMRs) were designed to seamlessly integrate into dynamic environments, navigating alongside human workers to enhance material handling and workflow efficiency. 
 
 My contributions as a R&D Robotics Engineer to the deployment of AMRs and Mobile Guided Vehicles(MGVs) are as follows,
 - integration of IMU-based Kalman Filter to the autonomy stack to account for signal dropout from Local Positioning System (LPS) for autonomous indoor navigation limiting AMR's orientational drift to 1°
@@ -66,7 +66,7 @@ I designed the complete software to map the movements of joystick to the MGV emp
 360° maneuverability highlighting sideways and diagonal movements at client's shopfloor bearing 500kg payload
 
 {{< video src="tesjastesting.mp4" controls="yes" >}}
-Testing joystick mapping to the MGV
+Testing the controller that ,aps the joystick movements to the MGV
 
 #### Photo Gallery
 {{< gallery album="hbr" >}}
