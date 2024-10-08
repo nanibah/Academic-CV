@@ -1,6 +1,6 @@
 ---
 title: Automated compound pulley system development for accurate calibration of VICON motion capture cameras 
-summary: I designed, 3D printed, machined, assembled and deployed an automated calibration system leveraging compound pulley mechanism to calibrate fifteen VICON motion capture cameras spaced across a three-story indoor flight space. 
+summary: I designed, 3D printed, machined, assembled and deployed a low-cost automated calibration system leveraging compound pulley mechanism to calibrate fifteen VICON motion capture cameras spaced across a three-story indoor flight space. 
 tags:
   - Experience
 date: '2024-07-20T00:00:00Z'
