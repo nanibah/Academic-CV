@@ -53,6 +53,7 @@ The BlueROV robot was manually controlled using a joystick to navigate toward a 
 
 #### A glimpse at the coral-reef dataset
 {{< gallery album="uw3D" >}}
+<!-- /workspaces/niba.github.io/assets/media/albums/uw3D -->
 
 ### Data processing
 Post data collection, as it can be seen in the technical overview, the multi-modal data was synced based on their closest timestanps. The sonar range, azimuth and intensities and the RGB images were extracted from the dataset for further steps.  
