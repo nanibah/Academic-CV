@@ -39,8 +39,7 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 ![screen render text](baselinesShip.png "The results of the implementation of Burguera and Yang et. al in comparison with the raw image/input, ground truth and STARS")
 ![screen render text](quantShip.png "Summarized segmentation performance of STARS compared to baselines. Metrics are averaged across all sites.")
 
-### A glimpse of dise-scan-sonar dataset
-#### A glimpse at the coral-reef dataset
+### A glimpse of side-scan-sonar dataset
 {{< gallery album="sss" >}}
 
 ### GPS coordinates derivation

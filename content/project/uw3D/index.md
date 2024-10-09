@@ -42,7 +42,7 @@ A detailed process overview of underwater 3D reconstruction involving acquiring 
 - deriving the realtive pose between sonar and camera through non-linear optimization
 - deriving sonar poses and depth scaling factor for 3D reconstruction learning models 
 - processing and testing the custom data against state-of-the-art 3D reconstruction model, [SeaThru-NeRF](https://sea-thru-nerf.github.io/)
-- reproduced and tweaked [Neusis](https://rpl.ri.cmu.edu/neusis/) for faster learning of the implicit surface while reducing noise and eliminating outliers with simulated data.
+<!-- - reproduced and tweaked [Neusis](https://rpl.ri.cmu.edu/neusis/) for faster learning of the implicit surface while reducing noise and eliminating outliers with simulated data. -->
 
 ### Data acquistion
 ![screem render text](mhlTesting.jpeg "BlueROV underwater robot used for data acquistion")
@@ -74,12 +74,12 @@ Finally, as a step towards testing our real-world data on exisitng 3D reconstruc
 
 Upon observation, I suspect this might be due to the fact that backscaterring is not detected in the custom dataset. Despite choosing a coral reef with distinct features, the minimal variation between the consecutive frames of the input data seems to result in poor learning of the medium parameters. Despite training the model with different learning rate and batch size (as instructed by the authors), this was the best batch of results with training time of six hours. 
 
-### [Neusis](https://rpl.ri.cmu.edu/neusis/)
-Another baselinne chosen to be compared against was Neusis since the authors used MLPs to 3D reconstruct underwater objects using imaging sonar data. Neusis was reproduced using HoloOcean simulated dataset provided by the authors. The reproduced classes are 14° planeFull, 14° planeMissing, 14° submarine, 28° planeFull and 28° planeMissing respectively where the angle denotes the elevation aperture of the sonars they used.
+<!-- ### [Neusis](https://rpl.ri.cmu.edu/neusis/)
+Another baselinne chosen to be compared against was Neusis since the authors used MLPs to 3D reconstruct underwater objects using imaging sonar data. Neusis was reproduced using HoloOcean simulated dataset provided by the authors. The distance fi
 ![screen render text](neusis_rep.png "Comparison between the simulated groundtruth data, published results and the reproduced results of three different classes")
 
 #### Truncated Signed Distance Function (TSDF)
-The models was experimented wiwth to increase the learning rate by replacing the Signed Distance Function (SDF) with [TSDF](https://link.springer.com/content/pdf/10.1007/978-3-319-11755-3_40.pdf). SDF represents a 3D object as a continuous function in space. SDF returns the signed distance from any point in space to the surface of the object (primitive). The output value of this function is always a floating-point number that can have three different meanings depending on the context.
+The models was experimented with to increase the learning rate by replacing the Signed Distance Function (SDF) with [TSDF](https://link.springer.com/content/pdf/10.1007/978-3-319-11755-3_40.pdf). SDF represents a 3D object as a continuous function in space. SDF returns the signed distance from any point in space to the surface of the object (primitive). The output value of this function is always a floating-point number that can have three different meanings depending on the context.
 - Zero: the point is located precisely on the surface of the primitive being rendered.
 - Negative: the point is inside the primitive and smaller values indicates deeper points.
 - Positive: the point is outside the primitive and larger values mean it is farther away from the primitive.
@@ -89,7 +89,7 @@ When SDF is truncated at _±t_, large distances are not relevant for surface rec
 
 where _tsdf<sub>i</sub>_  is the truncated signed distance of the _i<sup>th</sup>_ pixel, _d<sub>t</sub>_ is the truncated distance and _d<sub>s</sub>_ is the signed distance. The concept is to conveniently use _d<sub>t</sub>_ and _d<sub>s</sub>_ depending on the situation.
 
-![screen render text](neusis.png "Extension of the 14° planeFull class. TSDF has overcome noise near the rear end of the plane at earlier epochs")
+![screen render text](neusis.png "Extension of the 14° planeFull class. TSDF has overcome noise near the rear end of the plane at earlier epochs") -->
 
 ### Conclusion
 During my time at the FRoG Lab, I believe I made significant contributions to establishing a foundation for tackling the underwater 3D reconstruction problem on multiple fronts as reflected from the process overview and also outlined a potential roadmap for the next steps in the project.
