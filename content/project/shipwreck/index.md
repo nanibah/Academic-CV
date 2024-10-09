@@ -35,7 +35,7 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 - deriving GPS coordinates of the shipwrecks with 30m resolution and 10m accuracy
 - formulating a confidence score-based metric to rank the shipwreck sites
 
-### A glimpse of side-scan-sonar dataset
+#### A glimpse of side-scan-sonar dataset
 {{< gallery album="sss" >}}
 
 ### Reproduction of segmentation models

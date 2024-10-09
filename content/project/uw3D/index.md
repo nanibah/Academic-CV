@@ -37,7 +37,7 @@ Underwater imaging and 3D reconstruction are crucial for marine robotics applica
 A detailed process overview of underwater 3D reconstruction involving acquiring real-world data, synching multi-modal data, obtaining the poses of the camera and the sonar to pass them through a novel NeRF-based learning model to obtain the novel-view synthesis and underwater 3D reconstruction. My controbutions to this pipeline are,
 - building C++ and python ROS-based driver for [Ping360](https://bluerobotics.com/store/sonars/imaging-sonars/ping360-sonar-r1-rp/) and [Oculus](https://www.blueprintsubsea.com/oculus/oculus-m-series) sonars
 - developing data visualizers for sonar data
-- collecting multi-modal data at the [Marine Hydrodynamics Lab](https://mhl.engin.umich.edu/)
+- collecting multi-modal datasets at the [Marine Hydrodynamics Lab](https://mhl.engin.umich.edu/)
 - synchronising data from sonar and monocular camera
 - deriving the realtive pose between sonar and camera through non-linear optimization
 - deriving sonar poses and depth scaling factor for 3D reconstruction learning models 
@@ -63,10 +63,10 @@ NeRF-based architectures were built upon pinhole camera model and requires RBG i
 ![screen render text](cameraPose.png "Visualization of camera poses derived using COLMAP")
 
 ### Non-linear optimizer
-Now that we have, camera data, camera poses and sonar data, we formulated and solved a non-linear optimization problem to derive the relative pose between the sonar and camera to generate sonar poses for the NeRF-based learning model. The sonar data D<sup>s</sup> consisting of range and intensities (r, &theta;), 3D points x = (X<sub>c</sub>, Y<sub>c</sub>, Z<sub>c</sub>) sampled by the camera and camera poses P<sup>c</sup> were the inputs to produce the transformation matrix from camera to sonar, T<sup>s</sup><sub>c</sub> along with a scaling factor, &alpha;. Pre-multiplying this transformation matrix with the camera poses produces sonar poses assuming that the sonar sampled the same 3D points as the camera. Thus, the formulated optimization problem is,
-
+Now that we have, camera data, camera poses and sonar data, we formulated and solved a non-linear optimization problem to derive the relative pose between the sonar and camera to generate sonar poses for the NeRF-based learning model. 
 ![screen render text](eqn.png)
-where K is the camera intrinsics, D<sub>w</sub> is the 3D points sampled from the world frame, D<sub>s</sub> is the same world points sampled from the sonar frame, T<sup>c</sup><sub>w</sub> is a homogeneous transformation matrix cenverting 3D points from world frame to camera frame, P<sup>s</sup><sub>c</sub> is the projection of camera into sonar, which is given by coordinate to polar frame transformations.
+
+The sonar data D<sub>s</sub> consists of range and intensities (r, &theta;) in polar coordinates in the sonar frame, the camera data D<sub>c</sub> consists of pixel information in cartesian coordinates in the pixel frame. _K_ indicate the camera instrinscis, &alpha; is the scaling factor we optimize for. 2D pixel information is back projected into 3D points into camera frame. T<sup>s</sup><sub>c</sub> is a homogeneous transformation matrix we are optimizing for which converts 3D points from camera frame to sonar frame. Finally these cartesian cordinates are projected into polar frame for minimization. Pre-multiplying T<sup>s</sup><sub>c</sub> with camera poses will yield the required sonar poses.  
 
 ### Reproduction of [SeaThru-NeRF](https://sea-thru-nerf.github.io/) on custom dataset
 Finally, as a step towards testing our real-world data on exisitng 3D reconstruction models, SeaThru-NeRF was reproduced as it was developed for rendering photorealistic novel-views while accounting for the medium that strongly influences the appearance of objects like foggy scenes or underwater data. While the resuts were not accurate, it led to potential investigations to mitigate the problem.
