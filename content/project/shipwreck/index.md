@@ -39,6 +39,9 @@ In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/a
 ![screen render text](baselinesShip.png "The results of the implementation of Burguera and Yang et. al in comparison with the raw image/input, ground truth and STARS")
 ![screen render text](quantShip.png "Summarized segmentation performance of STARS compared to baselines. Metrics are averaged across all sites.")
 
+### A glimpse of dise-scan-sonar dataset
+#### A glimpse at the coral-reef dataset
+{{< gallery album="sss" >}}
 
 ### GPS coordinates derivation
 The output of STARS were segmentation masks with detected shipwrecks. For each shipwreck site, the appropriate threshold intensity was determined from which thresholded segmentation masks were obtained. [Kornia's connected components](https://kornia.github.io/tutorials/nbs/connected_components.html) were used to determine the bounding boxes around the shipwrecks. The frequncy SSS is higher than the GPS present in the deployed AUV to gather shipwreck data at Lake Huron, Michigan. Finally, utilizing the periodic and discontinuous UTM coordinates and the pixel values from the thresholded segmentation masks with bouding boxes, the AUV's trajectory was interpolated and the GPS coordinates of the shipwrecks were derived with 10m accuracy and 30m resolution.  

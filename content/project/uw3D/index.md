@@ -51,8 +51,8 @@ The BlueROV robot was manually controlled using a joystick to navigate toward a 
 #### Ping360 visualizer
 ![screen render text](viz.png "Sonar data visualized as LaserScan and MarkerArray in real-time during data collection")
 
-<!-- #### A glimpse at the coral-reef dataset
-{{< gallery album="uw" >}} -->
+#### A glimpse at the coral-reef dataset
+{{< gallery album="uw" >}}
 <!-- /workspaces/niba.github.io/assets/media/albums/uw3D -->
 
 ### Data processing
