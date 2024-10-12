@@ -27,13 +27,14 @@ links:
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
+[UMich Field Robotics Group](https://fieldrobotics.engin.umich.edu/) is a research lab that focuses on underwater and space robotics with a focus on enabling autonomy in a dynamic and unstructured environment. One of my projects in this lab was to accurately derive the GPS coordinates of the detected shipwrecks from multiple shipwreck sites in the  [Thunder Bay National Marine Sanctuary](https://thunderbay.noaa.gov/) (TBNMS), Lake Huron, MI. 
 
-Exploring underwater areas of archaeological importance is a multi-step pipeline that requires expensive resources. To begin with, a specific area is chosen considering the probability that it contains valuable sites and the risks of them being damaged (e.g. dredging, pipeline construction, and fishing installation). This is followed by a high-altitude survey using Side Scan Sonar (SSS), either deployed with a tow fish or an Autonomous Underwater Vehicles (AUVs). Subsequently, technical personnel evaluates the images produced to find and rank potential sites. This is essential as there are not usually enough resources or time to explore all the identified sites. These sites are revisited to accurately decide their worth, which is typically done with human divers or Remotely Operated Vehicles (ROVs).
+Underwater archaeological exploration is a complex and resource-intensive process that relies heavily on tools like Side Scan Sonar (SSS) to map the seafloor and identify potential sites of interest, such as shipwrecks. Traditional approaches often involve manual evaluation of sonar images, which can be time-consuming and costly, especially for deepwater sites inaccessible to human divers. To address these challenges, this project introduces an automated pipeline [Shipwreck AI](https://youtu.be/UtNK1Ite8no?si=VKX90Tq1wsh7mmM7) which detects the shipwrecks, derive their GPS coordinates and rank the multiple sites of archeaological importance. The results were sucessfully demonstrated to [TBNMS, NOAA](https://thunderbay.noaa.gov/).  
 
-In this project, shipwrecks were detected leveraging [STARS](https://arxiv.org/abs/2310.01667), GPS coordinates of the detetced shipwrecks were derived and the multiple shipwreck sites were ranked of archeaological importance. This pipeline was demonstrated as the [Shipwreck AI](https://youtu.be/UtNK1Ite8no?si=VKX90Tq1wsh7mmM7) pipeline to the [Thunder Bay National Marine Sanctuary, NOAA](https://thunderbay.noaa.gov/) for underwater explaoration and shipwreck analysis. My contributions to this are as follows,
+My contributions include,
 - reproduction of neural network architecture of the semantic segmentation baselines [Burguera](https://www.mdpi.com/2077-1312/8/8/557#) and [Yang et al](https://www.frontiersin.org/articles/10.3389/fnbot.2022.928206/full) for detection of shipwrecks
-- deriving GPS coordinates of the shipwrecks with 30m resolution and 10m accuracy
-- formulating a confidence score-based metric to rank the shipwreck sites
+- derivation of GPS coordinates of the shipwrecks with 30m resolution and 10m accuracy
+- formulation a confidence score-based metric to rank the shipwreck sites
 
 #### A glimpse of side-scan-sonar dataset
 {{< gallery album="sss" >}}
